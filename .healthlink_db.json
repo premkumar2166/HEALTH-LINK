@@ -1,0 +1,2680 @@
+{
+  "doctors": [
+    {
+      "id": "doc-1",
+      "name": "Dr. Sarah Miller, MD",
+      "email": "sarah.miller@healthlink.org",
+      "doctorCode": "DOC-7749",
+      "specialty": "Cardiovascular & Internal Medicine",
+      "specialization": "Cardiology & Internal Medicine",
+      "licenseNumber": "MD-884291-NY",
+      "professionalId": "MD-884291-NY",
+      "clinicName": "HealthLink Premier Tele-Clinical Center",
+      "phone": "+1 (555) 884-2910",
+      "passwordHash": "$2a$10$sO1COvR34Kju5mtuKrn9TeZiI6daykt/VC3p4Tn0h2.pe/qN91WSS",
+      "verificationStatus": "VERIFIED",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "profilePhoto": "",
+      "createdAt": "2026-01-10T08:00:00.000Z",
+      "updatedAt": "2026-08-29T17:38:15.689Z"
+    },
+    {
+      "id": "doc-2",
+      "name": "Dr. Robert Vance, MD",
+      "email": "robert.vance@healthlink.org",
+      "doctorCode": "DOC-3321",
+      "specialty": "Endocrinology & Preventive Health",
+      "specialization": "Endocrinology & Preventive Health",
+      "licenseNumber": "MD-741992-CA",
+      "professionalId": "MD-741992-CA",
+      "clinicName": "Metabolic & Tele-Monitoring Clinic",
+      "phone": "+1 (555) 741-9920",
+      "passwordHash": "$2a$10$sO1COvR34Kju5mtuKrn9TeZiI6daykt/VC3p4Tn0h2.pe/qN91WSS",
+      "verificationStatus": "VERIFIED",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "profilePhoto": "",
+      "createdAt": "2026-01-12T08:00:00.000Z",
+      "updatedAt": "2026-08-29T08:00:00.000Z"
+    },
+    {
+      "id": "doc-1788022714577-dk8f",
+      "name": "Dr. Gregory House, MD",
+      "email": "doctor.test.1788022714497@healthlink.org",
+      "phone": "+1 (555) 999-8888",
+      "professionalId": "MD-778899-NJ",
+      "specialty": "Diagnostic Medicine & Nephrology",
+      "specialization": "Diagnostic Medicine & Nephrology",
+      "licenseNumber": "MD-778899-NJ",
+      "clinicName": "Princeton-Plainsboro Teaching Hospital",
+      "doctorCode": "HL-DR-5SMUCL",
+      "passwordHash": "$2a$10$24MXodnZvAO01uWGFN0OK.35fbov8UDA89qPfpSfZHWInQq1PVYLm",
+      "verificationStatus": "PENDING_VERIFICATION",
+      "verificationToken": "FSWPDRXO",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-29T16:58:34.577Z",
+      "updatedAt": "2026-08-29T16:58:34.577Z"
+    },
+    {
+      "id": "doc-1788022714579-iqb1",
+      "name": "Dr. Allison Cameron, MD",
+      "email": "doctor.verify.1788022714579@healthlink.org",
+      "phone": "+1 (555) 012-3456",
+      "professionalId": "MD-HEALTHLINK",
+      "specialty": "Immunology",
+      "specialization": "Immunology",
+      "licenseNumber": "",
+      "clinicName": "Diagnostic Center",
+      "doctorCode": "HL-DR-3ARL9H",
+      "passwordHash": "mock-hash",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "JG0SD1Q5",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-29T16:58:34.579Z",
+      "updatedAt": "2026-08-29T16:58:34.580Z"
+    },
+    {
+      "id": "doc-1788022714660-x1ku",
+      "name": "Dr. James Wilson, MD",
+      "email": "doctor.reset.1788022714584@healthlink.org",
+      "phone": "+1 (555) 012-3456",
+      "professionalId": "MD-HEALTHLINK",
+      "specialty": "Oncology",
+      "specialization": "Oncology",
+      "licenseNumber": "",
+      "clinicName": "Oncology Wing",
+      "doctorCode": "HL-DR-X29VXV",
+      "passwordHash": "$2a$10$ILHALtLn1/3hHFT6svfMyuJws2MKGh1rsMUBklR0LXT4Z0xfXvfeC",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "C2OIUUOC",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-29T16:58:34.660Z",
+      "updatedAt": "2026-08-29T16:58:34.734Z"
+    },
+    {
+      "id": "doc-1788022899034-wo14",
+      "name": "Dr. Gregory House, MD",
+      "email": "doctor.test.1788022898956@healthlink.org",
+      "phone": "+1 (555) 999-8888",
+      "professionalId": "MD-778899-NJ",
+      "specialty": "Diagnostic Medicine & Nephrology",
+      "specialization": "Diagnostic Medicine & Nephrology",
+      "licenseNumber": "MD-778899-NJ",
+      "clinicName": "Princeton-Plainsboro Teaching Hospital",
+      "doctorCode": "HL-DR-VBTJW9",
+      "passwordHash": "$2a$10$6DsLlVM5AwIRAnPRE7aeceeB2899SUHjd3CYxEqL/77Po4qkdRA3q",
+      "verificationStatus": "PENDING_VERIFICATION",
+      "verificationToken": "KKF03TKB",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-29T17:01:39.034Z",
+      "updatedAt": "2026-08-29T17:01:39.035Z"
+    },
+    {
+      "id": "doc-1788022899037-klxg",
+      "name": "Dr. Allison Cameron, MD",
+      "email": "doctor.verify.1788022899037@healthlink.org",
+      "phone": "+1 (555) 012-3456",
+      "professionalId": "MD-HEALTHLINK",
+      "specialty": "Immunology",
+      "specialization": "Immunology",
+      "licenseNumber": "",
+      "clinicName": "Diagnostic Center",
+      "doctorCode": "HL-DR-ZLKGEW",
+      "passwordHash": "mock-hash",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "OQF4X4BX",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-29T17:01:39.037Z",
+      "updatedAt": "2026-08-29T17:01:39.037Z"
+    },
+    {
+      "id": "doc-1788022899108-o4v2",
+      "name": "Dr. James Wilson, MD",
+      "email": "doctor.reset.1788022899040@healthlink.org",
+      "phone": "+1 (555) 012-3456",
+      "professionalId": "MD-HEALTHLINK",
+      "specialty": "Oncology",
+      "specialization": "Oncology",
+      "licenseNumber": "",
+      "clinicName": "Oncology Wing",
+      "doctorCode": "HL-DR-2Q6L4G",
+      "passwordHash": "$2a$10$BFDpuOa7dBguHtPkOf8oIOGwm2DJ7XtzAH9NEiBXSPhM91pAloCti",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "6RR7Q3J3",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-29T17:01:39.108Z",
+      "updatedAt": "2026-08-29T17:01:39.178Z"
+    },
+    {
+      "id": "doc-1788024663448-eetl",
+      "name": "Dr.  Ganesh",
+      "email": "ganesh@email.com",
+      "phone": "8220928214",
+      "professionalId": "ZEON",
+      "specialty": "General Surgery",
+      "specialization": "General Surgery",
+      "licenseNumber": "ZEON",
+      "clinicName": "Ganesh",
+      "doctorCode": "HL-DR-5SKF7M",
+      "passwordHash": "$2a$10$IwhcB4XIJVcCNbHPhZllhOykt77/kVhICMlyp1kKGegi7XRIM/QO.",
+      "verificationStatus": "PENDING_VERIFICATION",
+      "verificationToken": "C1VQ863D",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-29T17:31:03.448Z",
+      "updatedAt": "2026-08-29T17:31:03.448Z"
+    },
+    {
+      "id": "doc-1788036329244-co9n",
+      "name": "Dr. Gregory House, MD",
+      "email": "doctor.test.1788036329164@healthlink.org",
+      "phone": "+1 (555) 999-8888",
+      "professionalId": "MD-778899-NJ",
+      "specialty": "Diagnostic Medicine & Nephrology",
+      "specialization": "Diagnostic Medicine & Nephrology",
+      "licenseNumber": "MD-778899-NJ",
+      "clinicName": "Princeton-Plainsboro Teaching Hospital",
+      "doctorCode": "HL-DR-HVFP75",
+      "passwordHash": "$2a$10$xrcpf07FVMYBG/n62s7CW.h9LmyOQBe8HF0661PUIafzwmGoWiIFW",
+      "verificationStatus": "PENDING_VERIFICATION",
+      "verificationToken": "UGU6BY44",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-29T20:45:29.244Z",
+      "updatedAt": "2026-08-29T20:45:29.246Z"
+    },
+    {
+      "id": "doc-1788036329248-n03w",
+      "name": "Dr. Allison Cameron, MD",
+      "email": "doctor.verify.1788036329248@healthlink.org",
+      "phone": "+1 (555) 012-3456",
+      "professionalId": "MD-HEALTHLINK",
+      "specialty": "Immunology",
+      "specialization": "Immunology",
+      "licenseNumber": "",
+      "clinicName": "Diagnostic Center",
+      "doctorCode": "HL-DR-3E5LLS",
+      "passwordHash": "mock-hash",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "VYNV8E5B",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-29T20:45:29.248Z",
+      "updatedAt": "2026-08-29T20:45:29.249Z"
+    },
+    {
+      "id": "doc-1788036329327-xd8n",
+      "name": "Dr. James Wilson, MD",
+      "email": "doctor.reset.1788036329252@healthlink.org",
+      "phone": "+1 (555) 012-3456",
+      "professionalId": "MD-HEALTHLINK",
+      "specialty": "Oncology",
+      "specialization": "Oncology",
+      "licenseNumber": "",
+      "clinicName": "Oncology Wing",
+      "doctorCode": "HL-DR-CH3U35",
+      "passwordHash": "$2a$10$dpfH5gL6tKH.G.QbW6y7YeqdN8JO7Mlf7te3V/z3xNMlszsw/IE6G",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "1VYFK7PA",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-29T20:45:29.327Z",
+      "updatedAt": "2026-08-29T20:45:29.402Z"
+    },
+    {
+      "id": "doc-1788036556392-oaf5",
+      "name": "Dr. Gregory House, MD",
+      "email": "doctor.test.1788036556313@healthlink.org",
+      "phone": "+1 (555) 999-8888",
+      "professionalId": "MD-778899-NJ",
+      "specialty": "Diagnostic Medicine & Nephrology",
+      "specialization": "Diagnostic Medicine & Nephrology",
+      "licenseNumber": "MD-778899-NJ",
+      "clinicName": "Princeton-Plainsboro Teaching Hospital",
+      "doctorCode": "HL-DR-N26C5K",
+      "passwordHash": "$2a$10$jO02sdiiLF1/PdFP2bB9Cu.TPPB0BwmMkDS13g9KoT47QPnd8Ldve",
+      "verificationStatus": "PENDING_VERIFICATION",
+      "verificationToken": "5JLHWTRO",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-29T20:49:16.392Z",
+      "updatedAt": "2026-08-29T20:49:16.393Z"
+    },
+    {
+      "id": "doc-1788036556395-ssnp",
+      "name": "Dr. Allison Cameron, MD",
+      "email": "doctor.verify.1788036556395@healthlink.org",
+      "phone": "+1 (555) 012-3456",
+      "professionalId": "MD-HEALTHLINK",
+      "specialty": "Immunology",
+      "specialization": "Immunology",
+      "licenseNumber": "",
+      "clinicName": "Diagnostic Center",
+      "doctorCode": "HL-DR-5CYEZK",
+      "passwordHash": "mock-hash",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "YDBSQIZL",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-29T20:49:16.395Z",
+      "updatedAt": "2026-08-29T20:49:16.396Z"
+    },
+    {
+      "id": "doc-1788036556467-akw0",
+      "name": "Dr. James Wilson, MD",
+      "email": "doctor.reset.1788036556398@healthlink.org",
+      "phone": "+1 (555) 012-3456",
+      "professionalId": "MD-HEALTHLINK",
+      "specialty": "Oncology",
+      "specialization": "Oncology",
+      "licenseNumber": "",
+      "clinicName": "Oncology Wing",
+      "doctorCode": "HL-DR-JP3WCG",
+      "passwordHash": "$2a$10$aHjmGBF5uI1O.X6CcAtebOm5Wq8bMaU7ht7JV/5fiuH7ohsiQq1Wa",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "86HKY48N",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-29T20:49:16.467Z",
+      "updatedAt": "2026-08-29T20:49:16.538Z"
+    },
+    {
+      "id": "doc-1788036616052-hji2",
+      "name": "Dr. Gregory House, MD",
+      "email": "doctor.test.1788036615965@healthlink.org",
+      "phone": "+1 (555) 999-8888",
+      "professionalId": "MD-778899-NJ",
+      "specialty": "Diagnostic Medicine & Nephrology",
+      "specialization": "Diagnostic Medicine & Nephrology",
+      "licenseNumber": "MD-778899-NJ",
+      "clinicName": "Princeton-Plainsboro Teaching Hospital",
+      "doctorCode": "HL-DR-4WG6X5",
+      "passwordHash": "$2a$10$QRZ4jHUC/tfhgNFENIiv0OeFmQpbB8UrqJlL0JappWJPwfkaikxBa",
+      "verificationStatus": "PENDING_VERIFICATION",
+      "verificationToken": "OD7CTJV5",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-29T20:50:16.052Z",
+      "updatedAt": "2026-08-29T20:50:16.053Z"
+    },
+    {
+      "id": "doc-1788036616056-i247",
+      "name": "Dr. Allison Cameron, MD",
+      "email": "doctor.verify.1788036616056@healthlink.org",
+      "phone": "+1 (555) 012-3456",
+      "professionalId": "MD-HEALTHLINK",
+      "specialty": "Immunology",
+      "specialization": "Immunology",
+      "licenseNumber": "",
+      "clinicName": "Diagnostic Center",
+      "doctorCode": "HL-DR-QLKCES",
+      "passwordHash": "mock-hash",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "NEI709P7",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-29T20:50:16.056Z",
+      "updatedAt": "2026-08-29T20:50:16.057Z"
+    },
+    {
+      "id": "doc-1788036616139-wpnj",
+      "name": "Dr. James Wilson, MD",
+      "email": "doctor.reset.1788036616061@healthlink.org",
+      "phone": "+1 (555) 012-3456",
+      "professionalId": "MD-HEALTHLINK",
+      "specialty": "Oncology",
+      "specialization": "Oncology",
+      "licenseNumber": "",
+      "clinicName": "Oncology Wing",
+      "doctorCode": "HL-DR-N8WEPD",
+      "passwordHash": "$2a$10$ZeWjxcO0XeKh6cZic5TKnuGjBKN7Hcue8CQ.bAS/mgl.wkLkN2jUy",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "3SU86PUK",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-29T20:50:16.139Z",
+      "updatedAt": "2026-08-29T20:50:16.216Z"
+    },
+    {
+      "id": "doc-1788051805702-uwz4",
+      "name": "Dr.  Ganesh",
+      "email": "premkumar03162007@email.com",
+      "phone": "8220928214",
+      "professionalId": "ZEON",
+      "specialty": "Cardiology &amp; Cardiovascular Medicine",
+      "specialization": "Cardiology &amp; Cardiovascular Medicine",
+      "licenseNumber": "ZEON",
+      "clinicName": "Ganesh",
+      "doctorCode": "HL-DR-JKC3WV",
+      "passwordHash": "$2a$10$g/TpwVX9IXJOD73K0WboAO/oWp9KKQsvZQsap33/aYBq6Ms9Z5OKe",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "8A27QBWK",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-30T01:03:25.702Z",
+      "updatedAt": "2026-08-30T01:03:45.021Z"
+    },
+    {
+      "id": "doc-1788052825020-gmbg",
+      "name": "Dr. ganesh, MD",
+      "email": "alex.morgan.613@healthlink.org",
+      "phone": "+1 (555) 724-613",
+      "professionalId": "MD-200703-CA",
+      "specialty": "Cardiology &amp; Cardiovascular Medicine",
+      "specialization": "Cardiology &amp; Cardiovascular Medicine",
+      "licenseNumber": "MD-200703-CA",
+      "clinicName": "HealthLink Advanced Tele-Clinic",
+      "doctorCode": "HL-DR-YF8SPT",
+      "passwordHash": "$2a$10$IM9IezxkuAtgO32ZZTf6eeEM4uJ2G9X3kIvgiTR02qd4ZpGAIcPbG",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "WH026O3H",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-30T01:20:25.020Z",
+      "updatedAt": "2026-08-30T01:20:25.020Z"
+    },
+    {
+      "id": "doc-1788056363534-71ft",
+      "name": "Dr. Gregory House, MD",
+      "email": "doctor.test.1788056363433@healthlink.org",
+      "phone": "+1 (555) 999-8888",
+      "professionalId": "MD-778899-NJ",
+      "specialty": "Diagnostic Medicine & Nephrology",
+      "specialization": "Diagnostic Medicine & Nephrology",
+      "licenseNumber": "MD-778899-NJ",
+      "clinicName": "Princeton-Plainsboro Teaching Hospital",
+      "doctorCode": "HL-DR-DZ5LS9",
+      "passwordHash": "$2a$10$cVv7x/FKPPgSdjJwyuu.BuP14lpWY.eB/L3XQcZA0b8BmrsUNTe/q",
+      "verificationStatus": "PENDING_VERIFICATION",
+      "verificationToken": "HVFMXDM0",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-30T02:19:23.534Z",
+      "updatedAt": "2026-08-30T02:19:23.535Z"
+    },
+    {
+      "id": "doc-1788056363541-3r22",
+      "name": "Dr. Allison Cameron, MD",
+      "email": "doctor.verify.1788056363541@healthlink.org",
+      "phone": "+1 (555) 012-3456",
+      "professionalId": "MD-HEALTHLINK",
+      "specialty": "Immunology",
+      "specialization": "Immunology",
+      "licenseNumber": "",
+      "clinicName": "Diagnostic Center",
+      "doctorCode": "HL-DR-9EY2AK",
+      "passwordHash": "mock-hash",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "MXCQTUZ9",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-30T02:19:23.541Z",
+      "updatedAt": "2026-08-30T02:19:23.543Z"
+    },
+    {
+      "id": "doc-1788056363645-urgm",
+      "name": "Dr. James Wilson, MD",
+      "email": "doctor.reset.1788056363547@healthlink.org",
+      "phone": "+1 (555) 012-3456",
+      "professionalId": "MD-HEALTHLINK",
+      "specialty": "Oncology",
+      "specialization": "Oncology",
+      "licenseNumber": "",
+      "clinicName": "Oncology Wing",
+      "doctorCode": "HL-DR-KB8R5Z",
+      "passwordHash": "$2a$10$u.CtyliaJ6.zQw0jjScRYupkulVBF6J3J59zm8NeG6xEHP22qkjGi",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "F3BPRVJE",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-30T02:19:23.645Z",
+      "updatedAt": "2026-08-30T02:19:23.746Z"
+    },
+    {
+      "id": "doc-1788060730296-fo6y",
+      "name": "Dr. Gregory House, MD",
+      "email": "doctor.test.1788060730201@healthlink.org",
+      "phone": "+1 (555) 999-8888",
+      "professionalId": "MD-778899-NJ",
+      "specialty": "Diagnostic Medicine & Nephrology",
+      "specialization": "Diagnostic Medicine & Nephrology",
+      "licenseNumber": "MD-778899-NJ",
+      "clinicName": "Princeton-Plainsboro Teaching Hospital",
+      "doctorCode": "HL-DR-FVXWE8",
+      "passwordHash": "$2a$10$x8O3ZYEnXPxwkBnscc4qveGslsCYR1JGLTj1EAGoGXiNVguo01o/W",
+      "verificationStatus": "PENDING_VERIFICATION",
+      "verificationToken": "0C9406CY",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-30T03:32:10.296Z",
+      "updatedAt": "2026-08-30T03:32:10.298Z"
+    },
+    {
+      "id": "doc-1788060730304-hgt5",
+      "name": "Dr. Allison Cameron, MD",
+      "email": "doctor.verify.1788060730304@healthlink.org",
+      "phone": "+1 (555) 012-3456",
+      "professionalId": "MD-HEALTHLINK",
+      "specialty": "Immunology",
+      "specialization": "Immunology",
+      "licenseNumber": "",
+      "clinicName": "Diagnostic Center",
+      "doctorCode": "HL-DR-3EWQP6",
+      "passwordHash": "mock-hash",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "25VH3VZW",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-30T03:32:10.304Z",
+      "updatedAt": "2026-08-30T03:32:10.306Z"
+    },
+    {
+      "id": "doc-1788060730398-bvxa",
+      "name": "Dr. James Wilson, MD",
+      "email": "doctor.reset.1788060730310@healthlink.org",
+      "phone": "+1 (555) 012-3456",
+      "professionalId": "MD-HEALTHLINK",
+      "specialty": "Oncology",
+      "specialization": "Oncology",
+      "licenseNumber": "",
+      "clinicName": "Oncology Wing",
+      "doctorCode": "HL-DR-HGMQ4A",
+      "passwordHash": "$2a$10$6YBCbv5cplZxoHwDhH9.S.eKKrnAwebvSAIX6c3BQbwPsPQqNxk.6",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "9TZ3QK5E",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-30T03:32:10.398Z",
+      "updatedAt": "2026-08-30T03:32:10.490Z"
+    },
+    {
+      "id": "doc-1788061579038-imnw",
+      "name": "Dr. Gregory House, MD",
+      "email": "doctor.test.1788061578952@healthlink.org",
+      "phone": "+1 (555) 999-8888",
+      "professionalId": "MD-778899-NJ",
+      "specialty": "Diagnostic Medicine & Nephrology",
+      "specialization": "Diagnostic Medicine & Nephrology",
+      "licenseNumber": "MD-778899-NJ",
+      "clinicName": "Princeton-Plainsboro Teaching Hospital",
+      "doctorCode": "HL-DR-WXBCXD",
+      "passwordHash": "$2a$10$FILH9dq/1pCf8Iit2RnNX.QojWYwNsBP3s58sbX6BmBwI1is3J4UG",
+      "verificationStatus": "PENDING_VERIFICATION",
+      "verificationToken": "1ETPZCVK",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-30T03:46:19.038Z",
+      "updatedAt": "2026-08-30T03:46:19.039Z"
+    },
+    {
+      "id": "doc-1788061579043-7tjn",
+      "name": "Dr. Allison Cameron, MD",
+      "email": "doctor.verify.1788061579042@healthlink.org",
+      "phone": "+1 (555) 012-3456",
+      "professionalId": "MD-HEALTHLINK",
+      "specialty": "Immunology",
+      "specialization": "Immunology",
+      "licenseNumber": "",
+      "clinicName": "Diagnostic Center",
+      "doctorCode": "HL-DR-2PXC9L",
+      "passwordHash": "mock-hash",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "W4IAL0EK",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-30T03:46:19.043Z",
+      "updatedAt": "2026-08-30T03:46:19.044Z"
+    },
+    {
+      "id": "doc-1788061579194-kifn",
+      "name": "Dr. James Wilson, MD",
+      "email": "doctor.reset.1788061579048@healthlink.org",
+      "phone": "+1 (555) 012-3456",
+      "professionalId": "MD-HEALTHLINK",
+      "specialty": "Oncology",
+      "specialization": "Oncology",
+      "licenseNumber": "",
+      "clinicName": "Oncology Wing",
+      "doctorCode": "HL-DR-C4SB8Y",
+      "passwordHash": "$2a$10$oXuAsgNn1elozdEI3Gno1u1TvWnkCKtg0LdosgPQTOIsOctCw8aCO",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "MCMZYMDN",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-30T03:46:19.194Z",
+      "updatedAt": "2026-08-30T03:46:19.348Z"
+    },
+    {
+      "id": "doc-1788061603672-t5ww",
+      "name": "Dr. Gregory House, MD",
+      "email": "doctor.test.1788061603574@healthlink.org",
+      "phone": "+1 (555) 999-8888",
+      "professionalId": "MD-778899-NJ",
+      "specialty": "Diagnostic Medicine & Nephrology",
+      "specialization": "Diagnostic Medicine & Nephrology",
+      "licenseNumber": "MD-778899-NJ",
+      "clinicName": "Princeton-Plainsboro Teaching Hospital",
+      "doctorCode": "HL-DR-DJD7T7",
+      "passwordHash": "$2a$10$OgVR2glRL7iwpmKBFwi.GOabnjkT9uqcr0ECVQx5B1sbxo/n/BP4W",
+      "verificationStatus": "PENDING_VERIFICATION",
+      "verificationToken": "N99MFMAM",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-30T03:46:43.672Z",
+      "updatedAt": "2026-08-30T03:46:43.673Z"
+    },
+    {
+      "id": "doc-1788061603676-mp5b",
+      "name": "Dr. Allison Cameron, MD",
+      "email": "doctor.verify.1788061603676@healthlink.org",
+      "phone": "+1 (555) 012-3456",
+      "professionalId": "MD-HEALTHLINK",
+      "specialty": "Immunology",
+      "specialization": "Immunology",
+      "licenseNumber": "",
+      "clinicName": "Diagnostic Center",
+      "doctorCode": "HL-DR-KM7B4E",
+      "passwordHash": "mock-hash",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "6S5958MN",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-30T03:46:43.676Z",
+      "updatedAt": "2026-08-30T03:46:43.678Z"
+    },
+    {
+      "id": "doc-1788061603775-h3lf",
+      "name": "Dr. James Wilson, MD",
+      "email": "doctor.reset.1788061603682@healthlink.org",
+      "phone": "+1 (555) 012-3456",
+      "professionalId": "MD-HEALTHLINK",
+      "specialty": "Oncology",
+      "specialization": "Oncology",
+      "licenseNumber": "",
+      "clinicName": "Oncology Wing",
+      "doctorCode": "HL-DR-HUU2FB",
+      "passwordHash": "$2a$10$.1IFL8ho65tPDFqa7Ju6NestmDmnwebUXmD/PohH5Iiki91rHvuH.",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "YM6V6DLO",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-30T03:46:43.775Z",
+      "updatedAt": "2026-08-30T03:46:43.868Z"
+    },
+    {
+      "id": "doc-1788061658226-sjvf",
+      "name": "Dr. Gregory House, MD",
+      "email": "doctor.test.1788061658139@healthlink.org",
+      "phone": "+1 (555) 999-8888",
+      "professionalId": "MD-778899-NJ",
+      "specialty": "Diagnostic Medicine & Nephrology",
+      "specialization": "Diagnostic Medicine & Nephrology",
+      "licenseNumber": "MD-778899-NJ",
+      "clinicName": "Princeton-Plainsboro Teaching Hospital",
+      "doctorCode": "HL-DR-3RDH6G",
+      "passwordHash": "$2a$10$sYQ5WTHz8qFIQf9XzIRtz.JrpS63sCOao6Ta1u1ra8r47noxIT6p2",
+      "verificationStatus": "PENDING_VERIFICATION",
+      "verificationToken": "XIH7PJFY",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-30T03:47:38.226Z",
+      "updatedAt": "2026-08-30T03:47:38.228Z"
+    },
+    {
+      "id": "doc-1788061658232-w8xs",
+      "name": "Dr. Allison Cameron, MD",
+      "email": "doctor.verify.1788061658232@healthlink.org",
+      "phone": "+1 (555) 012-3456",
+      "professionalId": "MD-HEALTHLINK",
+      "specialty": "Immunology",
+      "specialization": "Immunology",
+      "licenseNumber": "",
+      "clinicName": "Diagnostic Center",
+      "doctorCode": "HL-DR-VMPTTK",
+      "passwordHash": "mock-hash",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "2DAN4CLC",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-30T03:47:38.232Z",
+      "updatedAt": "2026-08-30T03:47:38.234Z"
+    },
+    {
+      "id": "doc-1788061658327-1m6s",
+      "name": "Dr. James Wilson, MD",
+      "email": "doctor.reset.1788061658238@healthlink.org",
+      "phone": "+1 (555) 012-3456",
+      "professionalId": "MD-HEALTHLINK",
+      "specialty": "Oncology",
+      "specialization": "Oncology",
+      "licenseNumber": "",
+      "clinicName": "Oncology Wing",
+      "doctorCode": "HL-DR-7CV9PN",
+      "passwordHash": "$2a$10$fNRFQf2.fguWZ0aJgy2UUulTd0QIEayj/.acob5qHM7GzRRHPV7Bm",
+      "verificationStatus": "VERIFIED",
+      "verificationToken": "1VHADYGC",
+      "mfaEnabled": false,
+      "isOnline": true,
+      "createdAt": "2026-08-30T03:47:38.327Z",
+      "updatedAt": "2026-08-30T03:47:38.437Z"
+    }
+  ],
+  "patients": [
+    {
+      "id": "pat-1",
+      "name": "John Doe",
+      "email": "john.doe@patient.healthlink",
+      "doctorId": "doc-1",
+      "doctorCode": "DOC-7749",
+      "dateOfBirth": "1984-06-15",
+      "gender": "Male",
+      "heightCm": 178,
+      "profilePhoto": "",
+      "phoneNumber": "+1 (555) 019-2834",
+      "preferredLanguage": "English (US)",
+      "allergies": [
+        "Penicillin",
+        "Peanuts"
+      ],
+      "medicalHistory": [
+        "Mild Hypertension",
+        "Hyperlipidemia"
+      ],
+      "emergencyContact": {
+        "name": "Jane Doe",
+        "relationship": "Spouse",
+        "phone": "+1 (555) 234-5678"
+      },
+      "createdAt": "2026-01-15T09:00:00.000Z",
+      "updatedAt": "2026-08-30T04:08:50.025Z",
+      "lastLogin": "2026-08-29T09:15:00.000Z",
+      "isContactVerified": true
+    },
+    {
+      "id": "pat-2",
+      "name": "Eleanor Vance",
+      "email": "eleanor.vance@patient.healthlink",
+      "doctorId": "doc-1",
+      "doctorCode": "DOC-7749",
+      "dateOfBirth": "1962-11-20",
+      "gender": "Female",
+      "heightCm": 165,
+      "profilePhoto": "",
+      "allergies": [
+        "Sulfa drugs"
+      ],
+      "medicalHistory": [
+        "Hypertension Stage 2",
+        "Arrhythmia review"
+      ],
+      "emergencyContact": {
+        "name": "David Vance",
+        "relationship": "Son",
+        "phone": "+1 (555) 876-5432"
+      },
+      "createdAt": "2026-02-01T10:00:00.000Z",
+      "updatedAt": "2026-08-29T07:30:00.000Z",
+      "isContactVerified": true
+    },
+    {
+      "id": "pat-3",
+      "name": "Marcus Chen",
+      "email": "marcus.chen@patient.healthlink",
+      "doctorId": "doc-1",
+      "doctorCode": "DOC-7749",
+      "dateOfBirth": "1991-03-08",
+      "gender": "Male",
+      "heightCm": 182,
+      "profilePhoto": "",
+      "allergies": [
+        "None known"
+      ],
+      "medicalHistory": [
+        "Post-operative monitoring",
+        "Orthopedic rehab"
+      ],
+      "emergencyContact": {
+        "name": "Lily Chen",
+        "relationship": "Sister",
+        "phone": "+1 (555) 345-6789"
+      },
+      "createdAt": "2026-02-10T11:00:00.000Z",
+      "updatedAt": "2026-08-29T06:45:00.000Z",
+      "isContactVerified": true
+    },
+    {
+      "name": "ganesh",
+      "email": "ganesh@patient.healthlink",
+      "doctorId": "doc-1",
+      "doctorCode": "DOC-7749",
+      "allergies": [],
+      "medicalHistory": [
+        "Self-registered via Patient Portal"
+      ],
+      "id": "pat-1788054049476",
+      "createdAt": "2026-08-30T01:40:49.476Z",
+      "updatedAt": "2026-08-30T01:40:49.476Z",
+      "isContactVerified": true
+    }
+  ],
+  "measurements": [
+    {
+      "id": "meas-1",
+      "patientId": "pat-1",
+      "timestamp": "2026-08-22T16:58:34.023Z",
+      "recordedBy": "patient",
+      "notes": "Morning check after breakfast",
+      "weight": {
+        "value": 75.4,
+        "unit": "kg",
+        "convertedKg": 75.4
+      },
+      "bloodPressure": {
+        "systolic": 122,
+        "diastolic": 80,
+        "pulse": 72
+      },
+      "temperature": {
+        "value": 36.6,
+        "unit": "C",
+        "convertedC": 36.6
+      },
+      "heartRate": 72,
+      "status": "REVIEW",
+      "statusReasons": [
+        "Elevated blood pressure (122/80 mmHg) recorded."
+      ]
+    },
+    {
+      "id": "meas-2",
+      "patientId": "pat-1",
+      "timestamp": "2026-08-23T16:58:34.023Z",
+      "recordedBy": "patient",
+      "notes": "Felt well, normal walk",
+      "weight": {
+        "value": 75.2,
+        "unit": "kg",
+        "convertedKg": 75.2
+      },
+      "bloodPressure": {
+        "systolic": 120,
+        "diastolic": 78,
+        "pulse": 70
+      },
+      "temperature": {
+        "value": 36.7,
+        "unit": "C",
+        "convertedC": 36.7
+      },
+      "heartRate": 70,
+      "status": "REVIEW",
+      "statusReasons": [
+        "Elevated blood pressure (120/78 mmHg) recorded."
+      ]
+    },
+    {
+      "id": "meas-3",
+      "patientId": "pat-1",
+      "timestamp": "2026-08-24T16:58:34.023Z",
+      "recordedBy": "patient",
+      "notes": "Slight work stress",
+      "weight": {
+        "value": 75,
+        "unit": "kg",
+        "convertedKg": 75
+      },
+      "bloodPressure": {
+        "systolic": 125,
+        "diastolic": 82,
+        "pulse": 74
+      },
+      "temperature": {
+        "value": 36.6,
+        "unit": "C",
+        "convertedC": 36.6
+      },
+      "heartRate": 74,
+      "status": "REVIEW",
+      "statusReasons": [
+        "Elevated blood pressure (125/82 mmHg) recorded."
+      ]
+    },
+    {
+      "id": "meas-4",
+      "patientId": "pat-1",
+      "timestamp": "2026-08-25T16:58:34.023Z",
+      "recordedBy": "patient",
+      "notes": "Standard morning log",
+      "weight": {
+        "value": 74.8,
+        "unit": "kg",
+        "convertedKg": 74.8
+      },
+      "bloodPressure": {
+        "systolic": 124,
+        "diastolic": 81,
+        "pulse": 73
+      },
+      "temperature": {
+        "value": 36.8,
+        "unit": "C",
+        "convertedC": 36.8
+      },
+      "heartRate": 73,
+      "status": "REVIEW",
+      "statusReasons": [
+        "Elevated blood pressure (124/81 mmHg) recorded."
+      ]
+    },
+    {
+      "id": "meas-5",
+      "patientId": "pat-1",
+      "timestamp": "2026-08-26T16:58:34.023Z",
+      "recordedBy": "patient",
+      "notes": "Post exercise reading",
+      "weight": {
+        "value": 74.9,
+        "unit": "kg",
+        "convertedKg": 74.9
+      },
+      "bloodPressure": {
+        "systolic": 128,
+        "diastolic": 84,
+        "pulse": 76
+      },
+      "temperature": {
+        "value": 36.7,
+        "unit": "C",
+        "convertedC": 36.7
+      },
+      "heartRate": 76,
+      "status": "REVIEW",
+      "statusReasons": [
+        "Elevated blood pressure (128/84 mmHg) recorded."
+      ]
+    },
+    {
+      "id": "meas-6",
+      "patientId": "pat-1",
+      "timestamp": "2026-08-27T16:58:34.023Z",
+      "recordedBy": "patient",
+      "notes": "Rested well",
+      "weight": {
+        "value": 74.7,
+        "unit": "kg",
+        "convertedKg": 74.7
+      },
+      "bloodPressure": {
+        "systolic": 121,
+        "diastolic": 79,
+        "pulse": 71
+      },
+      "temperature": {
+        "value": 36.6,
+        "unit": "C",
+        "convertedC": 36.6
+      },
+      "heartRate": 71,
+      "status": "REVIEW",
+      "statusReasons": [
+        "Elevated blood pressure (121/79 mmHg) recorded."
+      ]
+    },
+    {
+      "id": "meas-7",
+      "patientId": "pat-1",
+      "timestamp": "2026-08-28T16:58:34.023Z",
+      "recordedBy": "patient",
+      "notes": "Evening check",
+      "weight": {
+        "value": 74.5,
+        "unit": "kg",
+        "convertedKg": 74.5
+      },
+      "bloodPressure": {
+        "systolic": 119,
+        "diastolic": 77,
+        "pulse": 69
+      },
+      "temperature": {
+        "value": 36.5,
+        "unit": "C",
+        "convertedC": 36.5
+      },
+      "heartRate": 69,
+      "status": "NORMAL",
+      "statusReasons": [
+        "All recorded vitals fall within configured reference ranges."
+      ]
+    },
+    {
+      "id": "meas-8",
+      "patientId": "pat-1",
+      "timestamp": "2026-08-29T16:58:34.023Z",
+      "recordedBy": "patient",
+      "notes": "Today morning reading",
+      "weight": {
+        "value": 74.4,
+        "unit": "kg",
+        "convertedKg": 74.4
+      },
+      "bloodPressure": {
+        "systolic": 118,
+        "diastolic": 76,
+        "pulse": 72
+      },
+      "temperature": {
+        "value": 36.6,
+        "unit": "C",
+        "convertedC": 36.6
+      },
+      "heartRate": 72,
+      "status": "NORMAL",
+      "statusReasons": [
+        "All recorded vitals fall within configured reference ranges."
+      ]
+    },
+    {
+      "id": "meas-pat2-1",
+      "patientId": "pat-2",
+      "timestamp": "2026-08-29T14:58:34.023Z",
+      "recordedBy": "patient",
+      "notes": "Experiencing severe headache and dizziness",
+      "bloodPressure": {
+        "systolic": 182,
+        "diastolic": 122,
+        "pulse": 98
+      },
+      "temperature": {
+        "value": 37.4,
+        "unit": "C",
+        "convertedC": 37.4
+      },
+      "heartRate": 98,
+      "weight": {
+        "value": 68.2,
+        "unit": "kg",
+        "convertedKg": 68.2
+      },
+      "status": "URGENT",
+      "statusReasons": [
+        "Hypertensive crisis threshold reached (182/122 mmHg). Immediate clinical evaluation recommended."
+      ]
+    },
+    {
+      "id": "meas-pat3-1",
+      "patientId": "pat-3",
+      "timestamp": "2026-08-29T12:58:34.023Z",
+      "recordedBy": "patient",
+      "notes": "Post-op knee swelling and feeling warm",
+      "bloodPressure": {
+        "systolic": 134,
+        "diastolic": 88,
+        "pulse": 84
+      },
+      "temperature": {
+        "value": 38.2,
+        "unit": "C",
+        "convertedC": 38.2
+      },
+      "heartRate": 84,
+      "weight": {
+        "value": 82,
+        "unit": "kg",
+        "convertedKg": 82
+      },
+      "status": "REVIEW",
+      "statusReasons": [
+        "Fever detected (38.2°C). Observation indicated.",
+        "Elevated blood pressure (134/88 mmHg) recorded."
+      ]
+    },
+    {
+      "patientId": "pat-1",
+      "timestamp": "2026-08-29T23:51:14.024Z",
+      "recordedBy": "patient",
+      "notes": "Real-world live test reading after breakfast",
+      "weight": {
+        "value": 75.4,
+        "unit": "kg",
+        "convertedKg": 75.4
+      },
+      "bloodPressure": {
+        "systolic": 121,
+        "diastolic": 79,
+        "pulse": 72
+      },
+      "temperature": {
+        "value": 36.6,
+        "unit": "C",
+        "convertedC": 36.6
+      },
+      "heartRate": 72,
+      "id": "meas-1788047474025",
+      "status": "REVIEW",
+      "statusReasons": [
+        "Elevated blood pressure (121/79 mmHg) recorded."
+      ]
+    },
+    {
+      "patientId": "pat-1",
+      "timestamp": "2026-08-29T23:51:43.683Z",
+      "recordedBy": "patient",
+      "notes": "Real-world live test reading after breakfast",
+      "weight": {
+        "value": 75.4,
+        "unit": "kg",
+        "convertedKg": 75.4
+      },
+      "bloodPressure": {
+        "systolic": 118,
+        "diastolic": 76,
+        "pulse": 72
+      },
+      "temperature": {
+        "value": 36.6,
+        "unit": "C",
+        "convertedC": 36.6
+      },
+      "heartRate": 72,
+      "id": "meas-1788047503684",
+      "status": "NORMAL",
+      "statusReasons": [
+        "All recorded vitals fall within configured reference ranges."
+      ]
+    },
+    {
+      "patientId": "pat-1",
+      "timestamp": "2026-08-29T23:52:00.930Z",
+      "recordedBy": "patient",
+      "notes": "Real-world live test reading after breakfast",
+      "weight": {
+        "value": 75.4,
+        "unit": "kg",
+        "convertedKg": 75.4
+      },
+      "bloodPressure": {
+        "systolic": 118,
+        "diastolic": 76,
+        "pulse": 72
+      },
+      "temperature": {
+        "value": 36.6,
+        "unit": "C",
+        "convertedC": 36.6
+      },
+      "heartRate": 72,
+      "id": "meas-1788047520930",
+      "status": "NORMAL",
+      "statusReasons": [
+        "All recorded vitals fall within configured reference ranges."
+      ]
+    },
+    {
+      "patientId": "pat-1",
+      "timestamp": "2026-08-30T01:05:43.800Z",
+      "recordedBy": "patient",
+      "notes": "Real-world live test reading after breakfast",
+      "weight": {
+        "value": 75.4,
+        "unit": "kg",
+        "convertedKg": 75.4
+      },
+      "bloodPressure": {
+        "systolic": 118,
+        "diastolic": 76,
+        "pulse": 72
+      },
+      "temperature": {
+        "value": 36.6,
+        "unit": "C",
+        "convertedC": 36.6
+      },
+      "heartRate": 72,
+      "id": "meas-1788051943801",
+      "status": "NORMAL",
+      "statusReasons": [
+        "All recorded vitals fall within configured reference ranges."
+      ]
+    },
+    {
+      "patientId": "pat-1",
+      "timestamp": "2026-08-30T01:16:25.939Z",
+      "recordedBy": "patient",
+      "notes": "Real-world live test reading after breakfast",
+      "weight": {
+        "value": 75.4,
+        "unit": "kg",
+        "convertedKg": 75.4
+      },
+      "bloodPressure": {
+        "systolic": 118,
+        "diastolic": 76,
+        "pulse": 72
+      },
+      "temperature": {
+        "value": 36.6,
+        "unit": "C",
+        "convertedC": 36.6
+      },
+      "heartRate": 72,
+      "id": "meas-1788052585939",
+      "status": "NORMAL",
+      "statusReasons": [
+        "All recorded vitals fall within configured reference ranges."
+      ]
+    },
+    {
+      "patientId": "pat-1",
+      "timestamp": "2026-08-30T01:22:09.421Z",
+      "recordedBy": "patient",
+      "notes": "Real-world live test reading after breakfast",
+      "weight": {
+        "value": 75.4,
+        "unit": "kg",
+        "convertedKg": 75.4
+      },
+      "bloodPressure": {
+        "systolic": 118,
+        "diastolic": 76,
+        "pulse": 72
+      },
+      "temperature": {
+        "value": 36.6,
+        "unit": "C",
+        "convertedC": 36.6
+      },
+      "heartRate": 72,
+      "id": "meas-1788052929421",
+      "status": "NORMAL",
+      "statusReasons": [
+        "All recorded vitals fall within configured reference ranges."
+      ]
+    },
+    {
+      "patientId": "pat-1",
+      "timestamp": "2026-08-30T02:18:28.411Z",
+      "recordedBy": "patient",
+      "notes": "Real-world live test reading after breakfast",
+      "weight": {
+        "value": 75.4,
+        "unit": "kg",
+        "convertedKg": 75.4
+      },
+      "bloodPressure": {
+        "systolic": 118,
+        "diastolic": 76,
+        "pulse": 72
+      },
+      "temperature": {
+        "value": 36.6,
+        "unit": "C",
+        "convertedC": 36.6
+      },
+      "heartRate": 72,
+      "id": "meas-1788056308412",
+      "status": "NORMAL",
+      "statusReasons": [
+        "All recorded vitals fall within configured reference ranges."
+      ]
+    },
+    {
+      "patientId": "pat-1",
+      "timestamp": "2026-08-30T02:19:03.126Z",
+      "recordedBy": "patient",
+      "notes": "Real-world live test reading after breakfast",
+      "weight": {
+        "value": 75.4,
+        "unit": "kg",
+        "convertedKg": 75.4
+      },
+      "bloodPressure": {
+        "systolic": 118,
+        "diastolic": 76,
+        "pulse": 72
+      },
+      "temperature": {
+        "value": 36.6,
+        "unit": "C",
+        "convertedC": 36.6
+      },
+      "heartRate": 72,
+      "id": "meas-1788056343127",
+      "status": "NORMAL",
+      "statusReasons": [
+        "All recorded vitals fall within configured reference ranges."
+      ]
+    },
+    {
+      "patientId": "pat-1",
+      "timestamp": "2026-08-30T02:19:22.831Z",
+      "recordedBy": "patient",
+      "notes": "Real-world live test reading after breakfast",
+      "weight": {
+        "value": 75.4,
+        "unit": "kg",
+        "convertedKg": 75.4
+      },
+      "bloodPressure": {
+        "systolic": 118,
+        "diastolic": 76,
+        "pulse": 72
+      },
+      "temperature": {
+        "value": 36.6,
+        "unit": "C",
+        "convertedC": 36.6
+      },
+      "heartRate": 72,
+      "id": "meas-1788056362831",
+      "status": "NORMAL",
+      "statusReasons": [
+        "All recorded vitals fall within configured reference ranges."
+      ]
+    },
+    {
+      "patientId": "pat-1",
+      "timestamp": "2026-08-30T04:08:50.021Z",
+      "recordedBy": "patient",
+      "notes": "Real-world live test reading after breakfast",
+      "weight": {
+        "value": 75.4,
+        "unit": "kg",
+        "convertedKg": 75.4
+      },
+      "bloodPressure": {
+        "systolic": 118,
+        "diastolic": 76,
+        "pulse": 72
+      },
+      "temperature": {
+        "value": 36.6,
+        "unit": "C",
+        "convertedC": 36.6
+      },
+      "heartRate": 72,
+      "id": "meas-1788062930022",
+      "status": "NORMAL",
+      "statusReasons": [
+        "All recorded vitals fall within configured reference ranges."
+      ]
+    }
+  ],
+  "alerts": [
+    {
+      "id": "alert-1",
+      "patientId": "pat-2",
+      "patientName": "Eleanor Vance",
+      "measurementId": "meas-pat2-1",
+      "severity": "URGENT",
+      "reason": "Hypertensive crisis threshold reached (182/122 mmHg). Immediate clinical evaluation recommended.",
+      "triggerValue": "182/122 mmHg",
+      "ruleVersion": "v1.4.0-AHA-CDC-STANDARD",
+      "status": "ACKNOWLEDGED",
+      "createdAt": "2026-08-29T14:58:34.023Z"
+    },
+    {
+      "id": "alert-2",
+      "patientId": "pat-3",
+      "patientName": "Marcus Chen",
+      "measurementId": "meas-pat3-1",
+      "severity": "REVIEW",
+      "reason": "Fever detected (38.2°C). Observation indicated.",
+      "triggerValue": "38.2°C",
+      "ruleVersion": "v1.4.0-AHA-CDC-STANDARD",
+      "status": "ACTIVE",
+      "createdAt": "2026-08-29T12:58:34.023Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1",
+      "senderId": "pat-1",
+      "senderName": "John Doe",
+      "senderRole": "patient",
+      "receiverId": "doc-1",
+      "text": "Hello Dr. Miller, I logged my morning blood pressure (118/76) and my weight is steady at 74.4 kg. Feeling great today!",
+      "timestamp": "2026-08-29T13:58:34.023Z",
+      "status": "read"
+    },
+    {
+      "id": "msg-2",
+      "senderId": "doc-1",
+      "senderName": "Dr. Sarah Miller, MD",
+      "senderRole": "doctor",
+      "receiverId": "pat-1",
+      "text": "Excellent work John. Your 7-day trend shows steady, well-regulated blood pressure. Continue with your low-sodium meals and daily morning walks.",
+      "timestamp": "2026-08-29T14:58:34.023Z",
+      "status": "read"
+    },
+    {
+      "senderId": "pat-1",
+      "senderName": "John Doe",
+      "senderRole": "patient",
+      "receiverId": "doc-1",
+      "text": "Dr. Miller, I have recorded my vitals for today.",
+      "id": "msg-1788047474727",
+      "timestamp": "2026-08-29T23:51:14.727Z",
+      "status": "delivered"
+    },
+    {
+      "senderId": "pat-1",
+      "senderName": "John Doe",
+      "senderRole": "patient",
+      "receiverId": "doc-1",
+      "text": "Dr. Miller, I have recorded my vitals for today.",
+      "id": "msg-1788047503863",
+      "timestamp": "2026-08-29T23:51:43.863Z",
+      "status": "delivered"
+    },
+    {
+      "senderId": "pat-1",
+      "senderName": "John Doe",
+      "senderRole": "patient",
+      "receiverId": "doc-1",
+      "text": "Dr. Miller, I have recorded my vitals for today.",
+      "id": "msg-1788047521190",
+      "timestamp": "2026-08-29T23:52:01.190Z",
+      "status": "delivered"
+    },
+    {
+      "senderId": "pat-1",
+      "senderName": "John Doe",
+      "senderRole": "patient",
+      "receiverId": "doc-1",
+      "text": "Dr. Miller, I have recorded my vitals for today.",
+      "id": "msg-1788051945078",
+      "timestamp": "2026-08-30T01:05:45.078Z",
+      "status": "delivered"
+    },
+    {
+      "senderId": "pat-1",
+      "senderName": "John Doe",
+      "senderRole": "patient",
+      "receiverId": "doc-1",
+      "text": "Dr. Miller, I have recorded my vitals for today.",
+      "id": "msg-1788052587450",
+      "timestamp": "2026-08-30T01:16:27.450Z",
+      "status": "delivered"
+    },
+    {
+      "senderId": "pat-1",
+      "senderName": "John Doe",
+      "senderRole": "patient",
+      "receiverId": "doc-1",
+      "text": "Dr. Miller, I have recorded my vitals for today.",
+      "id": "msg-1788052930808",
+      "timestamp": "2026-08-30T01:22:10.808Z",
+      "status": "delivered"
+    },
+    {
+      "senderId": "pat-1",
+      "senderName": "John Doe",
+      "senderRole": "patient",
+      "receiverId": "doc-1",
+      "text": "Dr. Miller, I have recorded my vitals for today.",
+      "id": "msg-1788056309373",
+      "timestamp": "2026-08-30T02:18:29.373Z",
+      "status": "delivered"
+    },
+    {
+      "senderId": "pat-1",
+      "senderName": "John Doe",
+      "senderRole": "patient",
+      "receiverId": "doc-1",
+      "text": "Dr. Miller, I have recorded my vitals for today.",
+      "id": "msg-1788056343271",
+      "timestamp": "2026-08-30T02:19:03.271Z",
+      "status": "delivered"
+    },
+    {
+      "senderId": "pat-1",
+      "senderName": "John Doe",
+      "senderRole": "patient",
+      "receiverId": "doc-1",
+      "text": "Dr. Miller, I have recorded my vitals for today.",
+      "id": "msg-1788062931355",
+      "timestamp": "2026-08-30T04:08:51.355Z",
+      "status": "delivered"
+    }
+  ],
+  "voiceMessages": [
+    {
+      "id": "vm-1",
+      "senderId": "pat-1",
+      "senderName": "John Doe",
+      "senderRole": "patient",
+      "receiverId": "doc-1",
+      "audioDataUrl": "",
+      "durationSeconds": 14,
+      "timestamp": "2026-08-28T16:58:34.023Z",
+      "status": "read",
+      "transcript": "Hi Dr. Miller, I also wanted to mention my knee felt fine during yesterday evening walk. Thank you!"
+    }
+  ],
+  "calls": [
+    {
+      "id": "call-1",
+      "callerId": "doc-1",
+      "callerName": "Dr. Sarah Miller, MD",
+      "callerRole": "doctor",
+      "receiverId": "pat-1",
+      "receiverName": "John Doe",
+      "callType": "video",
+      "status": "ended",
+      "startedAt": "2026-08-24T16:58:34.023Z",
+      "endedAt": "2026-08-24T17:10:34.023Z",
+      "durationSeconds": 720
+    }
+  ],
+  "doctorNotes": [
+    {
+      "patientId": "pat-1",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Sarah Miller, MD",
+      "title": "Confidential Exam",
+      "content": "Confidential clinical thought.",
+      "isPrivateToDoctor": true,
+      "category": "observation",
+      "id": "note-1788056363798",
+      "timestamp": "2026-08-30T02:19:23.798Z"
+    },
+    {
+      "id": "note-1",
+      "patientId": "pat-1",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Sarah Miller, MD",
+      "title": "Monthly Tele-Cardio Review",
+      "content": "Patient adhering well to lifestyle modifications. Blood pressure consistently in the 118-124 / 76-82 mmHg range. No chest tightness, palpitations, or shortness of breath noted. Maintain current care protocol and review in 30 days.",
+      "isPrivateToDoctor": true,
+      "category": "observation",
+      "timestamp": "2026-08-27T16:58:34.023Z"
+    }
+  ],
+  "assessments": [
+    {
+      "id": "assess-1",
+      "patientId": "pat-1",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Sarah Miller, MD",
+      "summary": "Cardiovascular vitals stable and well-controlled. Trend indicates positive response to diet and exercise.",
+      "recommendations": [
+        "Maintain daily morning blood pressure logging before 10:00 AM.",
+        "Sustain 30 minutes of low-impact aerobic exercise 5 days a week.",
+        "Continue sodium intake under 2,000 mg/day."
+      ],
+      "followUpDate": "2026-09-29",
+      "timestamp": "2026-08-27T16:58:34.023Z"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "annot-1",
+      "patientId": "pat-1",
+      "doctorId": "doc-1",
+      "dateStr": "Day 5",
+      "text": "Measurement trend reviewed on Aug 27 by Dr. Miller. Optimal control.",
+      "createdAt": "2026-08-27T16:58:34.023Z"
+    },
+    {
+      "patientId": "pat-1",
+      "doctorId": "doc-1",
+      "dateStr": "Today",
+      "text": "Vitals stable post-exercise. Continue standard telemetry protocol.",
+      "id": "annot-1788047504321",
+      "createdAt": "2026-08-29T23:51:44.321Z"
+    },
+    {
+      "patientId": "pat-1",
+      "doctorId": "doc-1",
+      "dateStr": "Today",
+      "text": "Vitals stable post-exercise. Continue standard telemetry protocol.",
+      "id": "annot-1788047521557",
+      "createdAt": "2026-08-29T23:52:01.557Z"
+    },
+    {
+      "patientId": "pat-1",
+      "doctorId": "doc-1",
+      "dateStr": "Today",
+      "text": "Vitals stable post-exercise. Continue standard telemetry protocol.",
+      "id": "annot-1788051947280",
+      "createdAt": "2026-08-30T01:05:47.280Z"
+    },
+    {
+      "patientId": "pat-1",
+      "doctorId": "doc-1",
+      "dateStr": "Today",
+      "text": "Vitals stable post-exercise. Continue standard telemetry protocol.",
+      "id": "annot-1788052589623",
+      "createdAt": "2026-08-30T01:16:29.623Z"
+    },
+    {
+      "patientId": "pat-1",
+      "doctorId": "doc-1",
+      "dateStr": "Today",
+      "text": "Vitals stable post-exercise. Continue standard telemetry protocol.",
+      "id": "annot-1788052933007",
+      "createdAt": "2026-08-30T01:22:13.007Z"
+    },
+    {
+      "patientId": "pat-1",
+      "doctorId": "doc-1",
+      "dateStr": "Today",
+      "text": "Vitals stable post-exercise. Continue standard telemetry protocol.",
+      "id": "annot-1788056311352",
+      "createdAt": "2026-08-30T02:18:31.352Z"
+    },
+    {
+      "patientId": "pat-1",
+      "doctorId": "doc-1",
+      "dateStr": "Today",
+      "text": "Vitals stable post-exercise. Continue standard telemetry protocol.",
+      "id": "annot-1788056343684",
+      "createdAt": "2026-08-30T02:19:03.684Z"
+    },
+    {
+      "patientId": "pat-1",
+      "doctorId": "doc-1",
+      "dateStr": "Today",
+      "text": "Vitals stable post-exercise. Continue standard telemetry protocol.",
+      "id": "annot-1788062933771",
+      "createdAt": "2026-08-30T04:08:53.771Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "LOGIN",
+      "resource": "PATIENT_PORTAL",
+      "details": "Patient logged in successfully with Doctor Code DOC-7749",
+      "id": "audit-1788063568544-lm3s",
+      "timestamp": "2026-08-30T04:19:28.544Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "LOGIN",
+      "resource": "PATIENT_PORTAL",
+      "details": "Patient logged in successfully with Doctor Code DOC-7749",
+      "id": "audit-1788063539179-a98w",
+      "timestamp": "2026-08-30T04:18:59.179Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-1788054049476",
+      "details": "Full clinical chart inspection for ganesh",
+      "id": "audit-1788063491110-7px7",
+      "timestamp": "2026-08-30T04:18:11.110Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-1788054049476",
+      "details": "Full clinical chart inspection for ganesh",
+      "id": "audit-1788063489562-lg5c",
+      "timestamp": "2026-08-30T04:18:09.562Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "ADD_CHART_ANNOTATION",
+      "resource": "ANNOTATION_annot-1788062933771",
+      "details": "Chart annotation added for pat-1",
+      "id": "audit-1788062933773-834a",
+      "timestamp": "2026-08-30T04:08:53.773Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-1",
+      "details": "Full clinical chart inspection for John Doe",
+      "id": "audit-1788062933290-om90",
+      "timestamp": "2026-08-30T04:08:53.290Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "LOGIN",
+      "resource": "DOCTOR_PORTAL",
+      "details": "Doctor authenticated to Clinical Command Center",
+      "ipAddress": "::1",
+      "id": "audit-1788062932618-uvae",
+      "timestamp": "2026-08-30T04:08:52.618Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "SEND_MESSAGE",
+      "resource": "CHAT_msg-1788062931355",
+      "details": "Message sent to doc-1",
+      "id": "audit-1788062931357-90fo",
+      "timestamp": "2026-08-30T04:08:51.357Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "AI_ASSISTANT_QUERY",
+      "resource": "AI_HEALTH_ASSISTANT",
+      "details": "Emergency: false",
+      "id": "audit-1788062930642-ponm",
+      "timestamp": "2026-08-30T04:08:50.642Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "RECORD_MEASUREMENT",
+      "resource": "MEASUREMENT_meas-1788062930022",
+      "details": "Recorded vitals with Clinical Status: NORMAL",
+      "id": "audit-1788062930027-rdi6",
+      "timestamp": "2026-08-30T04:08:50.027Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "LOGIN",
+      "resource": "PATIENT_PORTAL",
+      "details": "Patient logged in successfully with Doctor Code DOC-7749",
+      "id": "audit-1788062929283-b49u",
+      "timestamp": "2026-08-30T04:08:49.283Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-1",
+      "details": "Full clinical chart inspection for John Doe",
+      "id": "audit-1788062737790-rok8",
+      "timestamp": "2026-08-30T04:05:37.790Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-1",
+      "details": "Full clinical chart inspection for John Doe",
+      "id": "audit-1788062737729-iqyy",
+      "timestamp": "2026-08-30T04:05:37.729Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "AI_ASSISTANT_QUERY",
+      "resource": "AI_HEALTH_ASSISTANT",
+      "details": "Emergency: false",
+      "id": "audit-1788062541580-njdz",
+      "timestamp": "2026-08-30T04:02:21.580Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-1788054049476",
+      "details": "Full clinical chart inspection for ganesh",
+      "id": "audit-1788062378580-syov",
+      "timestamp": "2026-08-30T03:59:38.580Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-1788054049476",
+      "details": "Full clinical chart inspection for ganesh",
+      "id": "audit-1788062378486-a29o",
+      "timestamp": "2026-08-30T03:59:38.486Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "LOGIN",
+      "resource": "PATIENT_PORTAL",
+      "details": "Patient logged in successfully with Doctor Code DOC-7749",
+      "id": "audit-1788061801424-kf3f",
+      "timestamp": "2026-08-30T03:50:01.424Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "RECORD_MEASUREMENT",
+      "resource": "MEASUREMENT_meas-1788056362831",
+      "details": "Recorded vitals with Clinical Status: NORMAL",
+      "id": "audit-1788056362835-6ks6",
+      "timestamp": "2026-08-30T02:19:22.835Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "LOGIN",
+      "resource": "PATIENT_PORTAL",
+      "details": "Patient logged in successfully with Doctor Code DOC-7749",
+      "id": "audit-1788056362784-9adf",
+      "timestamp": "2026-08-30T02:19:22.784Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "ADD_CHART_ANNOTATION",
+      "resource": "ANNOTATION_annot-1788056343684",
+      "details": "Chart annotation added for pat-1",
+      "id": "audit-1788056343686-fhbf",
+      "timestamp": "2026-08-30T02:19:03.686Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-1",
+      "details": "Full clinical chart inspection for John Doe",
+      "id": "audit-1788056343603-5ib4",
+      "timestamp": "2026-08-30T02:19:03.603Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "LOGIN",
+      "resource": "DOCTOR_PORTAL",
+      "details": "Doctor authenticated to Clinical Command Center",
+      "ipAddress": "::1",
+      "id": "audit-1788056343492-d4wk",
+      "timestamp": "2026-08-30T02:19:03.492Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "SEND_MESSAGE",
+      "resource": "CHAT_msg-1788056343271",
+      "details": "Message sent to doc-1",
+      "id": "audit-1788056343273-onxx",
+      "timestamp": "2026-08-30T02:19:03.273Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "AI_ASSISTANT_QUERY",
+      "resource": "AI_HEALTH_ASSISTANT",
+      "details": "Emergency: false",
+      "id": "audit-1788056343232-oigf",
+      "timestamp": "2026-08-30T02:19:03.233Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "RECORD_MEASUREMENT",
+      "resource": "MEASUREMENT_meas-1788056343127",
+      "details": "Recorded vitals with Clinical Status: NORMAL",
+      "id": "audit-1788056343131-na5i",
+      "timestamp": "2026-08-30T02:19:03.131Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "LOGIN",
+      "resource": "PATIENT_PORTAL",
+      "details": "Patient logged in successfully with Doctor Code DOC-7749",
+      "id": "audit-1788056343064-w02t",
+      "timestamp": "2026-08-30T02:19:03.064Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "ADD_CHART_ANNOTATION",
+      "resource": "ANNOTATION_annot-1788056311352",
+      "details": "Chart annotation added for pat-1",
+      "id": "audit-1788056311354-cr2k",
+      "timestamp": "2026-08-30T02:18:31.354Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-1",
+      "details": "Full clinical chart inspection for John Doe",
+      "id": "audit-1788056310873-794d",
+      "timestamp": "2026-08-30T02:18:30.873Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "LOGIN",
+      "resource": "DOCTOR_PORTAL",
+      "details": "Doctor authenticated to Clinical Command Center",
+      "ipAddress": "::1",
+      "id": "audit-1788056310337-92c1",
+      "timestamp": "2026-08-30T02:18:30.337Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "SEND_MESSAGE",
+      "resource": "CHAT_msg-1788056309373",
+      "details": "Message sent to doc-1",
+      "id": "audit-1788056309374-ig24",
+      "timestamp": "2026-08-30T02:18:29.374Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "AI_ASSISTANT_QUERY",
+      "resource": "AI_HEALTH_ASSISTANT",
+      "details": "Emergency: false",
+      "id": "audit-1788056308914-qpi0",
+      "timestamp": "2026-08-30T02:18:28.914Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "RECORD_MEASUREMENT",
+      "resource": "MEASUREMENT_meas-1788056308412",
+      "details": "Recorded vitals with Clinical Status: NORMAL",
+      "id": "audit-1788056308415-qsy3",
+      "timestamp": "2026-08-30T02:18:28.415Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "LOGIN",
+      "resource": "PATIENT_PORTAL",
+      "details": "Patient logged in successfully with Doctor Code DOC-7749",
+      "id": "audit-1788056307965-bh4x",
+      "timestamp": "2026-08-30T02:18:27.965Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-1788054049476",
+      "details": "Full clinical chart inspection for ganesh",
+      "id": "audit-1788054585433-7zos",
+      "timestamp": "2026-08-30T01:49:45.433Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-1788054049476",
+      "details": "Full clinical chart inspection for ganesh",
+      "id": "audit-1788054585347-x4xt",
+      "timestamp": "2026-08-30T01:49:45.347Z"
+    },
+    {
+      "userId": "pat-1788054049476",
+      "userName": "ganesh",
+      "userRole": "patient",
+      "action": "LOGIN",
+      "resource": "PATIENT_PORTAL",
+      "details": "Patient logged in successfully with Doctor Code DOC-7749",
+      "id": "audit-1788054049481-ecvr",
+      "timestamp": "2026-08-30T01:40:49.481Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "ADD_CHART_ANNOTATION",
+      "resource": "ANNOTATION_annot-1788052933007",
+      "details": "Chart annotation added for pat-1",
+      "id": "audit-1788052933008-dzw4",
+      "timestamp": "2026-08-30T01:22:13.008Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-1",
+      "details": "Full clinical chart inspection for John Doe",
+      "id": "audit-1788052932593-ireh",
+      "timestamp": "2026-08-30T01:22:12.593Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "LOGIN",
+      "resource": "DOCTOR_PORTAL",
+      "details": "Doctor authenticated to Clinical Command Center",
+      "ipAddress": "::1",
+      "id": "audit-1788052932066-5kvy",
+      "timestamp": "2026-08-30T01:22:12.066Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "SEND_MESSAGE",
+      "resource": "CHAT_msg-1788052930808",
+      "details": "Message sent to doc-1",
+      "id": "audit-1788052930810-7plo",
+      "timestamp": "2026-08-30T01:22:10.810Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "AI_ASSISTANT_QUERY",
+      "resource": "AI_HEALTH_ASSISTANT",
+      "details": "Emergency: false",
+      "id": "audit-1788052930238-ijgs",
+      "timestamp": "2026-08-30T01:22:10.238Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "RECORD_MEASUREMENT",
+      "resource": "MEASUREMENT_meas-1788052929421",
+      "details": "Recorded vitals with Clinical Status: NORMAL",
+      "id": "audit-1788052929425-3tao",
+      "timestamp": "2026-08-30T01:22:09.425Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "LOGIN",
+      "resource": "PATIENT_PORTAL",
+      "details": "Patient logged in successfully with Doctor Code DOC-7749",
+      "id": "audit-1788052928748-97y0",
+      "timestamp": "2026-08-30T01:22:08.748Z"
+    },
+    {
+      "userId": "doc-1788052825020-gmbg",
+      "userName": "Dr. ganesh, MD",
+      "userRole": "doctor",
+      "action": "DOCTOR_REGISTRATION",
+      "resource": "DOCTOR_PORTAL",
+      "details": "Doctor account created with code HL-DR-YF8SPT",
+      "ipAddress": "::1",
+      "id": "audit-1788052825025-o7x9",
+      "timestamp": "2026-08-30T01:20:25.025Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "ADD_CHART_ANNOTATION",
+      "resource": "ANNOTATION_annot-1788052589623",
+      "details": "Chart annotation added for pat-1",
+      "id": "audit-1788052589624-xhkj",
+      "timestamp": "2026-08-30T01:16:29.624Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-1",
+      "details": "Full clinical chart inspection for John Doe",
+      "id": "audit-1788052589200-tqmy",
+      "timestamp": "2026-08-30T01:16:29.200Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "LOGIN",
+      "resource": "DOCTOR_PORTAL",
+      "details": "Doctor authenticated to Clinical Command Center",
+      "ipAddress": "::1",
+      "id": "audit-1788052588717-cm7g",
+      "timestamp": "2026-08-30T01:16:28.717Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "SEND_MESSAGE",
+      "resource": "CHAT_msg-1788052587450",
+      "details": "Message sent to doc-1",
+      "id": "audit-1788052587451-325x",
+      "timestamp": "2026-08-30T01:16:27.451Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "AI_ASSISTANT_QUERY",
+      "resource": "AI_HEALTH_ASSISTANT",
+      "details": "Emergency: false",
+      "id": "audit-1788052586981-rjtw",
+      "timestamp": "2026-08-30T01:16:26.981Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "RECORD_MEASUREMENT",
+      "resource": "MEASUREMENT_meas-1788052585939",
+      "details": "Recorded vitals with Clinical Status: NORMAL",
+      "id": "audit-1788052585943-iyui",
+      "timestamp": "2026-08-30T01:16:25.943Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "LOGIN",
+      "resource": "PATIENT_PORTAL",
+      "details": "Patient logged in successfully with Doctor Code DOC-7749",
+      "id": "audit-1788052585452-2i81",
+      "timestamp": "2026-08-30T01:16:25.452Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-2",
+      "details": "Full clinical chart inspection for Eleanor Vance",
+      "id": "audit-1788052173163-0jby",
+      "timestamp": "2026-08-30T01:09:33.163Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-2",
+      "details": "Full clinical chart inspection for Eleanor Vance",
+      "id": "audit-1788052173113-tm2x",
+      "timestamp": "2026-08-30T01:09:33.113Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "ADD_CHART_ANNOTATION",
+      "resource": "ANNOTATION_annot-1788051947280",
+      "details": "Chart annotation added for pat-1",
+      "id": "audit-1788051947281-71c5",
+      "timestamp": "2026-08-30T01:05:47.281Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-1",
+      "details": "Full clinical chart inspection for John Doe",
+      "id": "audit-1788051946769-l0pi",
+      "timestamp": "2026-08-30T01:05:46.769Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "LOGIN",
+      "resource": "DOCTOR_PORTAL",
+      "details": "Doctor authenticated to Clinical Command Center",
+      "ipAddress": "::1",
+      "id": "audit-1788051946152-9jxt",
+      "timestamp": "2026-08-30T01:05:46.152Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "SEND_MESSAGE",
+      "resource": "CHAT_msg-1788051945078",
+      "details": "Message sent to doc-1",
+      "id": "audit-1788051945081-wc0y",
+      "timestamp": "2026-08-30T01:05:45.081Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "AI_ASSISTANT_QUERY",
+      "resource": "AI_HEALTH_ASSISTANT",
+      "details": "Emergency: false",
+      "id": "audit-1788051944494-6bd7",
+      "timestamp": "2026-08-30T01:05:44.494Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "RECORD_MEASUREMENT",
+      "resource": "MEASUREMENT_meas-1788051943801",
+      "details": "Recorded vitals with Clinical Status: NORMAL",
+      "id": "audit-1788051943803-3sc6",
+      "timestamp": "2026-08-30T01:05:43.803Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "LOGIN",
+      "resource": "PATIENT_PORTAL",
+      "details": "Patient logged in successfully with Doctor Code DOC-7749",
+      "id": "audit-1788051943184-yzre",
+      "timestamp": "2026-08-30T01:05:43.184Z"
+    },
+    {
+      "userId": "doc-1788051805702-uwz4",
+      "userName": "Dr.  Ganesh",
+      "userRole": "doctor",
+      "action": "FAILED_LOGIN_ATTEMPT",
+      "resource": "DOCTOR_PORTAL",
+      "details": "Incorrect password provided during authentication",
+      "ipAddress": "::1",
+      "id": "audit-1788051872797-mg61",
+      "timestamp": "2026-08-30T01:04:32.797Z"
+    },
+    {
+      "userId": "doc-1788051805702-uwz4",
+      "userName": "Dr.  Ganesh",
+      "userRole": "doctor",
+      "action": "FAILED_LOGIN_ATTEMPT",
+      "resource": "DOCTOR_PORTAL",
+      "details": "Incorrect password provided during authentication",
+      "ipAddress": "::1",
+      "id": "audit-1788051862933-1agg",
+      "timestamp": "2026-08-30T01:04:22.933Z"
+    },
+    {
+      "userId": "doc-1788051805702-uwz4",
+      "userName": "Dr.  Ganesh",
+      "userRole": "doctor",
+      "action": "FAILED_LOGIN_ATTEMPT",
+      "resource": "DOCTOR_PORTAL",
+      "details": "Incorrect password provided during authentication",
+      "ipAddress": "::1",
+      "id": "audit-1788051849936-umab",
+      "timestamp": "2026-08-30T01:04:09.936Z"
+    },
+    {
+      "userId": "doc-1788051805702-uwz4",
+      "userName": "Dr.  Ganesh",
+      "userRole": "doctor",
+      "action": "EMAIL_VERIFICATION",
+      "resource": "DOCTOR_PORTAL",
+      "details": "Doctor email verification completed successfully",
+      "id": "audit-1788051825022-hzcz",
+      "timestamp": "2026-08-30T01:03:45.022Z"
+    },
+    {
+      "userId": "doc-1788051805702-uwz4",
+      "userName": "Dr.  Ganesh",
+      "userRole": "doctor",
+      "action": "DOCTOR_REGISTRATION",
+      "resource": "DOCTOR_PORTAL",
+      "details": "Doctor account created with code reference and pending verification",
+      "ipAddress": "::1",
+      "id": "audit-1788051805709-13o3",
+      "timestamp": "2026-08-30T01:03:25.709Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "ADD_CHART_ANNOTATION",
+      "resource": "ANNOTATION_annot-1788047521557",
+      "details": "Chart annotation added for pat-1",
+      "id": "audit-1788047521559-xno8",
+      "timestamp": "2026-08-29T23:52:01.559Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-1",
+      "details": "Full clinical chart inspection for John Doe",
+      "id": "audit-1788047521503-847j",
+      "timestamp": "2026-08-29T23:52:01.503Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "LOGIN",
+      "resource": "DOCTOR_PORTAL",
+      "details": "Doctor authenticated to Clinical Command Center",
+      "ipAddress": "::1",
+      "id": "audit-1788047521394-w8t0",
+      "timestamp": "2026-08-29T23:52:01.394Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "SEND_MESSAGE",
+      "resource": "CHAT_msg-1788047521190",
+      "details": "Message sent to doc-1",
+      "id": "audit-1788047521191-vyp7",
+      "timestamp": "2026-08-29T23:52:01.191Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "AI_ASSISTANT_QUERY",
+      "resource": "AI_HEALTH_ASSISTANT",
+      "details": "Emergency: false",
+      "id": "audit-1788047521142-7omo",
+      "timestamp": "2026-08-29T23:52:01.142Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "RECORD_MEASUREMENT",
+      "resource": "MEASUREMENT_meas-1788047520930",
+      "details": "Recorded vitals with Clinical Status: NORMAL",
+      "id": "audit-1788047520933-msx3",
+      "timestamp": "2026-08-29T23:52:00.933Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "LOGIN",
+      "resource": "PATIENT_PORTAL",
+      "details": "Patient logged in successfully with Doctor Code DOC-7749",
+      "id": "audit-1788047520870-iajx",
+      "timestamp": "2026-08-29T23:52:00.870Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "ADD_CHART_ANNOTATION",
+      "resource": "ANNOTATION_annot-1788047504321",
+      "details": "Chart annotation added for pat-1",
+      "id": "audit-1788047504324-hng5",
+      "timestamp": "2026-08-29T23:51:44.324Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-1",
+      "details": "Full clinical chart inspection for John Doe",
+      "id": "audit-1788047504229-o6hv",
+      "timestamp": "2026-08-29T23:51:44.229Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "LOGIN",
+      "resource": "DOCTOR_PORTAL",
+      "details": "Doctor authenticated to Clinical Command Center",
+      "ipAddress": "::1",
+      "id": "audit-1788047504122-wcsx",
+      "timestamp": "2026-08-29T23:51:44.122Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "SEND_MESSAGE",
+      "resource": "CHAT_msg-1788047503863",
+      "details": "Message sent to doc-1",
+      "id": "audit-1788047503864-5j8v",
+      "timestamp": "2026-08-29T23:51:43.864Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "AI_ASSISTANT_QUERY",
+      "resource": "AI_HEALTH_ASSISTANT",
+      "details": "Emergency: false",
+      "id": "audit-1788047503730-buav",
+      "timestamp": "2026-08-29T23:51:43.730Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "RECORD_MEASUREMENT",
+      "resource": "MEASUREMENT_meas-1788047503684",
+      "details": "Recorded vitals with Clinical Status: NORMAL",
+      "id": "audit-1788047503686-r673",
+      "timestamp": "2026-08-29T23:51:43.686Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "LOGIN",
+      "resource": "PATIENT_PORTAL",
+      "details": "Patient logged in successfully with Doctor Code DOC-7749",
+      "id": "audit-1788047503605-0u6k",
+      "timestamp": "2026-08-29T23:51:43.605Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "SEND_MESSAGE",
+      "resource": "CHAT_msg-1788047474727",
+      "details": "Message sent to doc-1",
+      "id": "audit-1788047474728-tnxg",
+      "timestamp": "2026-08-29T23:51:14.728Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "AI_ASSISTANT_QUERY",
+      "resource": "AI_HEALTH_ASSISTANT",
+      "details": "Emergency: false",
+      "id": "audit-1788047474426-txh3",
+      "timestamp": "2026-08-29T23:51:14.426Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "RECORD_MEASUREMENT",
+      "resource": "MEASUREMENT_meas-1788047474025",
+      "details": "Recorded vitals with Clinical Status: REVIEW",
+      "id": "audit-1788047474027-2vmp",
+      "timestamp": "2026-08-29T23:51:14.027Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "LOGIN",
+      "resource": "PATIENT_PORTAL",
+      "details": "Patient logged in successfully with Doctor Code DOC-7749",
+      "id": "audit-1788047473704-sdnz",
+      "timestamp": "2026-08-29T23:51:13.704Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "LOGIN",
+      "resource": "PATIENT_PORTAL",
+      "details": "Patient logged in successfully with Doctor Code DOC-7749",
+      "id": "audit-1788039121152-la54",
+      "timestamp": "2026-08-29T21:32:01.152Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-2",
+      "details": "Full clinical chart inspection for Eleanor Vance",
+      "id": "audit-1788025384911-nro7",
+      "timestamp": "2026-08-29T17:43:04.911Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-2",
+      "details": "Full clinical chart inspection for Eleanor Vance",
+      "id": "audit-1788025384871-ungm",
+      "timestamp": "2026-08-29T17:43:04.871Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "UPDATE_ALERT_STATUS",
+      "resource": "ALERT_alert-1",
+      "details": "Alert marked as ACKNOWLEDGED. Notes: Status updated to ACKNOWLEDGED in Clinical Attention Center by Dr. Sarah Miller, MD",
+      "id": "audit-1788025382828-3qlq",
+      "timestamp": "2026-08-29T17:43:02.828Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "UPDATE_ALERT_STATUS",
+      "resource": "ALERT_alert-1",
+      "details": "Alert marked as ACKNOWLEDGED. Notes: Status updated to ACKNOWLEDGED in Clinical Attention Center by Dr. Sarah Miller, MD",
+      "id": "audit-1788025382824-150b",
+      "timestamp": "2026-08-29T17:43:02.824Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-1",
+      "details": "Full clinical chart inspection for John Doe",
+      "id": "audit-1788025121955-hkme",
+      "timestamp": "2026-08-29T17:38:41.955Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "VIEW_PATIENT_CHART",
+      "resource": "PATIENT_pat-1",
+      "details": "Full clinical chart inspection for John Doe",
+      "id": "audit-1788025121905-cni9",
+      "timestamp": "2026-08-29T17:38:41.905Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "MFA_DISABLED",
+      "resource": "SECURITY_SETTINGS",
+      "details": "Two-Factor Authentication was disabled",
+      "id": "audit-1788025095690-m216",
+      "timestamp": "2026-08-29T17:38:15.690Z"
+    },
+    {
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "MFA_ENABLED",
+      "resource": "SECURITY_SETTINGS",
+      "details": "Two-Factor Authentication was enabled",
+      "id": "audit-1788025087464-rt3e",
+      "timestamp": "2026-08-29T17:38:07.464Z"
+    },
+    {
+      "userId": "doc-1788024663448-eetl",
+      "userName": "Dr.  Ganesh",
+      "userRole": "doctor",
+      "action": "FAILED_LOGIN_ATTEMPT",
+      "resource": "DOCTOR_PORTAL",
+      "details": "Incorrect password provided during authentication",
+      "ipAddress": "::1",
+      "id": "audit-1788024684952-qily",
+      "timestamp": "2026-08-29T17:31:24.952Z"
+    },
+    {
+      "userId": "doc-1788024663448-eetl",
+      "userName": "Dr.  Ganesh",
+      "userRole": "doctor",
+      "action": "DOCTOR_REGISTRATION",
+      "resource": "DOCTOR_PORTAL",
+      "details": "Doctor account created with code reference and pending verification",
+      "ipAddress": "::1",
+      "id": "audit-1788024663449-a4h3",
+      "timestamp": "2026-08-29T17:31:03.449Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "LOGIN",
+      "resource": "PATIENT_PORTAL",
+      "details": "Patient logged in successfully with Doctor Code DOC-7749",
+      "id": "audit-1788024297521-y022",
+      "timestamp": "2026-08-29T17:24:57.521Z"
+    },
+    {
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "LOGIN",
+      "resource": "PATIENT_PORTAL",
+      "details": "Patient logged in successfully with Doctor Code DOC-7749",
+      "id": "audit-1788024294834-xnfe",
+      "timestamp": "2026-08-29T17:24:54.834Z"
+    },
+    {
+      "id": "audit-3",
+      "userId": "doc-1",
+      "userName": "Dr. Sarah Miller, MD",
+      "userRole": "doctor",
+      "action": "PATIENT_RECORD_VIEW",
+      "resource": "pat-1",
+      "details": "Reviewed 7-day health trend and clinical chart",
+      "timestamp": "2026-08-29T14:58:34.023Z"
+    },
+    {
+      "id": "audit-1",
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "LOGIN",
+      "resource": "PATIENT_PORTAL",
+      "details": "Successful patient authentication via Doctor Code DOC-7749",
+      "timestamp": "2026-08-29T13:58:34.023Z"
+    },
+    {
+      "id": "audit-2",
+      "userId": "pat-1",
+      "userName": "John Doe",
+      "userRole": "patient",
+      "action": "MEASUREMENT_RECORDED",
+      "resource": "VITALS",
+      "details": "Logged BP 118/76 mmHg, Weight 74.4 kg, Temp 36.6°C",
+      "timestamp": "2026-08-29T13:58:34.023Z"
+    }
+  ],
+  "resetTokens": [
+    {
+      "id": "rst-1788022714661",
+      "email": "doctor.reset.1788022714584@healthlink.org",
+      "doctorCode": "HL-DR-X29VXV",
+      "token": "I8WK2C",
+      "expiresAt": "2026-08-29T17:28:34.661Z",
+      "used": true
+    },
+    {
+      "id": "rst-1788022899109",
+      "email": "doctor.reset.1788022899040@healthlink.org",
+      "doctorCode": "HL-DR-2Q6L4G",
+      "token": "IW31X7",
+      "expiresAt": "2026-08-29T17:31:39.109Z",
+      "used": true
+    },
+    {
+      "id": "rst-1788036329329",
+      "email": "doctor.reset.1788036329252@healthlink.org",
+      "doctorCode": "HL-DR-CH3U35",
+      "token": "STU9OC",
+      "expiresAt": "2026-08-29T21:15:29.329Z",
+      "used": true
+    },
+    {
+      "id": "rst-1788036556468",
+      "email": "doctor.reset.1788036556398@healthlink.org",
+      "doctorCode": "HL-DR-JP3WCG",
+      "token": "2BK4M7",
+      "expiresAt": "2026-08-29T21:19:16.468Z",
+      "used": true
+    },
+    {
+      "id": "rst-1788036616140",
+      "email": "doctor.reset.1788036616061@healthlink.org",
+      "doctorCode": "HL-DR-N8WEPD",
+      "token": "IORBA7",
+      "expiresAt": "2026-08-29T21:20:16.140Z",
+      "used": true
+    },
+    {
+      "id": "rst-1788056363647",
+      "email": "doctor.reset.1788056363547@healthlink.org",
+      "doctorCode": "HL-DR-KB8R5Z",
+      "token": "3HRJYT",
+      "expiresAt": "2026-08-30T02:49:23.647Z",
+      "used": true
+    },
+    {
+      "id": "rst-1788060730400",
+      "email": "doctor.reset.1788060730310@healthlink.org",
+      "doctorCode": "HL-DR-HGMQ4A",
+      "token": "4KELCR",
+      "expiresAt": "2026-08-30T04:02:10.400Z",
+      "used": true
+    },
+    {
+      "id": "rst-1788061579196",
+      "email": "doctor.reset.1788061579048@healthlink.org",
+      "doctorCode": "HL-DR-C4SB8Y",
+      "token": "4X95QD",
+      "expiresAt": "2026-08-30T04:16:19.196Z",
+      "used": true
+    },
+    {
+      "id": "rst-1788061603777",
+      "email": "doctor.reset.1788061603682@healthlink.org",
+      "doctorCode": "HL-DR-HUU2FB",
+      "token": "PV7CM0",
+      "expiresAt": "2026-08-30T04:16:43.777Z",
+      "used": true
+    },
+    {
+      "id": "rst-1788061658328",
+      "email": "doctor.reset.1788061658238@healthlink.org",
+      "doctorCode": "HL-DR-7CV9PN",
+      "token": "HGCZSD",
+      "expiresAt": "2026-08-30T04:17:38.328Z",
+      "used": true
+    }
+  ]
+}
