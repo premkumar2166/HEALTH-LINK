@@ -1,0 +1,502 @@
+[
+  {
+    "id": "befbbc22-4b7e-4b88-b902-a5a124962568",
+    "email": "newpatient2@example.com",
+    "passwordHash": "$2b$10$pLpgVWkFnNIsscNtEg1wm.Na1DRV0RoUCwNpJqkRQpQ9EbjiIEquC",
+    "role": "PATIENT",
+    "profile": {
+      "firstName": "Test",
+      "lastName": "Patient"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-29T14:07:55.514Z",
+      "lastLogin": "2026-09-29T14:07:55.627Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "f03734d1-c264-43cd-8394-aa714f0de450",
+    "email": "patient.test@example.com",
+    "passwordHash": "$2b$10$5sqOB5Qzes1wKcjzU.QLJuzhbkh.Wlaem5m5VBO9uXL8D0DNdQxwi",
+    "role": "PATIENT",
+    "profile": {
+      "firstName": "Test",
+      "lastName": "Patient"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-29T14:16:38.464Z",
+      "lastLogin": null,
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "56bcb99a-9828-4d93-a423-8c16ae11135c",
+    "email": "patient100@example.com",
+    "passwordHash": "$2b$10$gnf7459GL0I2lKATx5ni8e9rIPwFNnfOVV9xH/WCo/.wGwd1kj1IS",
+    "role": "PATIENT",
+    "profile": {
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-29T14:19:41.410Z",
+      "lastLogin": "2026-09-29T14:21:33.383Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "f6d237d5-6d21-481c-8888-0b37c31cb3a8",
+    "email": "doctor100@example.com",
+    "passwordHash": "$2b$10$ky8GhsSbEc1dN9EF6rBAG.Udp5jCi/T2Q3Q.9zO7KqEBQ3zAG7RXa",
+    "role": "DOCTOR",
+    "profile": {
+      "firstName": "Jane",
+      "lastName": "Smith"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-29T14:32:25.246Z",
+      "lastLogin": null,
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "5e4a728f-2280-48cc-96db-dda82b774ff5",
+    "email": "doc.test@healthlink.com",
+    "passwordHash": "$2b$10$uTBP6NFMAN7EtdKlGZSN3eNkfisIyWRXP/pZYi5HMzi57coGoegdS",
+    "role": "DOCTOR",
+    "profile": {
+      "firstName": "Doctor",
+      "lastName": "Tester"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-29T14:42:24.572Z",
+      "lastLogin": "2026-09-29T14:44:04.924Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "809fb31e-8b02-447b-969b-422b3be6e49d",
+    "email": "patient_1790786678731@test.com",
+    "passwordHash": "$2b$10$MSfk1GnDIP/wGUPfJWQ4UewbDv9/jjmhDJ6c9Wim9QL7FjZRgVGVq",
+    "role": "PATIENT",
+    "profile": {
+      "firstName": "Test",
+      "lastName": "Patient"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T16:44:40.251Z",
+      "lastLogin": "2026-09-30T16:44:40.472Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "a5a37a05-adb7-450d-8e3f-b9f7118be733",
+    "email": "doctor_1790786680800@test.com",
+    "passwordHash": "$2b$10$MgApOz7CNyLlOLpTGYd0yuHIMqGTeR942gfMsJmWLl5tFJczJPnUO",
+    "role": "DOCTOR",
+    "profile": {
+      "firstName": "Doc",
+      "lastName": "Test",
+      "specialty": "General"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T16:44:40.890Z",
+      "lastLogin": "2026-09-30T16:44:40.999Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "1e1c9273-65a7-4260-b019-f8979988deda",
+    "email": "hospital_1790786682038@test.com",
+    "passwordHash": "$2b$10$icQs7cdsmGOLcYjyW6jeBu8cMBb2znJKWRcfIoXwYfMXZuGR3Miam",
+    "role": "HOSPITAL_ADMIN",
+    "profile": {
+      "firstName": "Admin",
+      "lastName": "Test"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T16:44:42.182Z",
+      "lastLogin": "2026-09-30T16:44:42.639Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "3a76914e-7d65-4c3d-8b80-bee97cb595db",
+    "email": "patient_1790787052204@test.com",
+    "passwordHash": "$2b$10$rVgZypQuiOa/A/85PVV7hOvng0w4hegeY5zLD7NvQ.1.2KKuJGncG",
+    "role": "PATIENT",
+    "profile": {
+      "firstName": "Test",
+      "lastName": "Patient"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T16:50:52.431Z",
+      "lastLogin": "2026-09-30T16:50:52.641Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "25fbd888-07e0-451e-850d-025699968ae2",
+    "email": "doctor_1790787055044@test.com",
+    "passwordHash": "$2b$10$bF8jd1tNZpz8rENj9ou/AO0NgVnEX7j2GnnkBim90ZNxYVZhbeyKe",
+    "role": "DOCTOR",
+    "profile": {
+      "firstName": "Doc",
+      "lastName": "Test",
+      "specialty": "General"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T16:50:55.140Z",
+      "lastLogin": "2026-09-30T16:50:55.251Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "2e62dfd5-1711-4431-b834-bb3fcf8ff73f",
+    "email": "hospital_1790787059598@test.com",
+    "passwordHash": "$2b$10$wSsNUJ2F8BO1nRLHXrD07.AIQuSwuSspFvkwQ.Ifr5DSe2T0./GWu",
+    "role": "HOSPITAL_ADMIN",
+    "profile": {
+      "firstName": "Admin",
+      "lastName": "Test"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T16:50:59.737Z",
+      "lastLogin": "2026-09-30T16:50:59.856Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "79dd6482-a116-4860-93ba-1e6a45f9685d",
+    "email": "patient_1790787159320@test.com",
+    "passwordHash": "$2b$10$sPlkKMSji2wTi2gJ2.PL0Oisg8F.5SROAW9Nk3iDyflmnYzlyMkTq",
+    "role": "PATIENT",
+    "profile": {
+      "firstName": "Test",
+      "lastName": "Patient"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T16:52:39.944Z",
+      "lastLogin": "2026-09-30T16:52:40.132Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "37f4c4c4-67b8-487b-a49a-9cf95399d68a",
+    "email": "doctor_1790787163128@test.com",
+    "passwordHash": "$2b$10$ILauxA24lTzTHU2P.clTiurfTFxPj55v5ztyG13oM4yr24HbptlUW",
+    "role": "DOCTOR",
+    "profile": {
+      "firstName": "Doc",
+      "lastName": "Test",
+      "specialty": "General"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T16:52:43.317Z",
+      "lastLogin": "2026-09-30T16:52:43.472Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "e825ff3e-7470-485e-b1a9-84287ebda211",
+    "email": "hospital_1790787168279@test.com",
+    "passwordHash": "$2b$10$LIJUwFsJOKuKPcOC8D9ideeFlvxiQM8DTxtsNTvkBFM6hD0of6cym",
+    "role": "HOSPITAL_ADMIN",
+    "profile": {
+      "firstName": "Admin",
+      "lastName": "Test"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T16:52:48.386Z",
+      "lastLogin": "2026-09-30T16:52:48.492Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "279fdc75-1f3a-4776-843f-f2dc2137945e",
+    "email": "doctor_1790787332019@test.com",
+    "passwordHash": "$2b$10$1G6oekJ7AoDgtV96pcc7pu8LoksmjBvY1eVzyRrIcBI/IdpaDmJnW",
+    "role": "DOCTOR",
+    "profile": {
+      "firstName": "Doc",
+      "lastName": "Test",
+      "specialty": "General"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T16:55:32.228Z",
+      "lastLogin": "2026-09-30T16:55:32.869Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "5a8fe09a-524c-4e8d-b6c6-36ae7515e1aa",
+    "email": "patient_1790787332273@test.com",
+    "passwordHash": "$2b$10$UmSUVppTRObti4tCS/CCaOvj9ayc2.SdiwJN0vBc/AdEswNKEL2qW",
+    "role": "PATIENT",
+    "profile": {
+      "firstName": "Test",
+      "lastName": "Patient"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T16:55:32.368Z",
+      "lastLogin": "2026-09-30T16:55:32.479Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "0923c48c-9b71-4343-b17b-5447298d48f7",
+    "email": "hospital_1790787333257@test.com",
+    "passwordHash": "$2b$10$89c4waLGjODNkSEu5BusL.n2sRoFKzMS.mctezrdXjh3ovSkZZMbm",
+    "role": "HOSPITAL_ADMIN",
+    "profile": {
+      "firstName": "Admin",
+      "lastName": "Test"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T16:55:33.370Z",
+      "lastLogin": "2026-09-30T16:55:33.517Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "62f88f4a-36b3-4900-9a65-15cab51490fe",
+    "email": "patient_1790788184504_0.17776346428052492@test.com",
+    "passwordHash": "$2b$10$21wiNihRFD.MUgHMTTk5Gu6VJdZI9zrD7zK.y/w5FHp9PbGA5tFHO",
+    "role": "PATIENT",
+    "profile": {
+      "firstName": "Actor",
+      "lastName": "PATIENT"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T17:09:55.131Z",
+      "lastLogin": "2026-09-30T17:09:55.546Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "a030e054-6750-47d5-b4ad-cda14b4e1a00",
+    "email": "patient_1790788195562_0.4054601716942301@test.com",
+    "passwordHash": "$2b$10$0h7xiqhQ329t5LeW/hUYS.G0Oj2ByTXzpopn/D3/uu4GM4k1bhL9m",
+    "role": "PATIENT",
+    "profile": {
+      "firstName": "Actor",
+      "lastName": "PATIENT"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T17:09:55.662Z",
+      "lastLogin": "2026-09-30T17:09:55.765Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "e6fbe73f-ffed-46c8-941c-34fae7365a9e",
+    "email": "doctor_1790788195772_0.016036666156731494@test.com",
+    "passwordHash": "$2b$10$u2nleh8BkGkLMYHq5.z9xulHXEiTehi24JYo/hOT7ucSTCNMnSSLa",
+    "role": "DOCTOR",
+    "profile": {
+      "firstName": "Actor",
+      "lastName": "DOCTOR"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T17:09:55.877Z",
+      "lastLogin": "2026-09-30T17:09:55.984Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "1632f358-de01-492f-8a79-9426f34dfcec",
+    "email": "doctor_1790788195990_0.3399262674276996@test.com",
+    "passwordHash": "$2b$10$jzGJbO1dZEmPAuEOn8WsVO/WlBAs/Je7dghhTAnhl0t/iNKHiLZKK",
+    "role": "DOCTOR",
+    "profile": {
+      "firstName": "Actor",
+      "lastName": "DOCTOR"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T17:09:56.098Z",
+      "lastLogin": "2026-09-30T17:09:56.221Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "ca48361a-f9ee-4142-b69a-56a9f32bd20c",
+    "email": "hospital_admin_1790788196229_0.8520255726796399@test.com",
+    "passwordHash": "$2b$10$vzrXZlQIYuijj1iC2VNyWOrb1.RYmcwhXGsz4lvOpMB6N/Ygg5UJC",
+    "role": "HOSPITAL_ADMIN",
+    "profile": {
+      "firstName": "Actor",
+      "lastName": "HOSPITAL_ADMIN"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T17:09:56.346Z",
+      "lastLogin": "2026-09-30T17:09:56.472Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "bd3aba3f-fd85-492b-91b7-0a1e64bbe70d",
+    "email": "hospital_staff_1790788196480_0.18346317295076997@test.com",
+    "passwordHash": "$2b$10$ldK7fa.WS/GKpgf91UmBLOVqq9GxBOTW9A4dp/ztAmvYPkxTCcmV2",
+    "role": "HOSPITAL_STAFF",
+    "profile": {
+      "firstName": "Actor",
+      "lastName": "HOSPITAL_STAFF"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T17:09:56.598Z",
+      "lastLogin": "2026-09-30T17:09:56.714Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "67ce6d7e-3c56-4fff-a6af-8329d6808c35",
+    "email": "patient_1790788255682_0.8893377373079058@test.com",
+    "passwordHash": "$2b$10$dGSPOiQuSTc6yBs4WE3y8OtG3ugfsLwKoUF.dFoRLuoEbGGd.Vbza",
+    "role": "PATIENT",
+    "profile": {
+      "firstName": "Actor",
+      "lastName": "PATIENT"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T17:10:55.840Z",
+      "lastLogin": "2026-09-30T17:10:55.966Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "6d2b052a-5966-46b9-8744-5ff4d82ddc30",
+    "email": "patient_1790788255973_0.47420745579214507@test.com",
+    "passwordHash": "$2b$10$rwT/gb/POWXj3T07vqbbbOnInIBNeqcVMSJhoZ20u73OENC2g1weS",
+    "role": "PATIENT",
+    "profile": {
+      "firstName": "Actor",
+      "lastName": "PATIENT"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T17:10:56.077Z",
+      "lastLogin": "2026-09-30T17:10:56.193Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "169571de-d775-432d-a22d-24a21ecabc0a",
+    "email": "doctor_1790788256201_0.7822076468446851@test.com",
+    "passwordHash": "$2b$10$W2fkSTh4igHPDd./.rmZaun63F4YKye7Wuyma2TuIRw9sXMAA5sW.",
+    "role": "DOCTOR",
+    "profile": {
+      "firstName": "Actor",
+      "lastName": "DOCTOR"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T17:10:56.298Z",
+      "lastLogin": "2026-09-30T17:10:56.407Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "cfac85bf-853f-4982-869b-442fbadda404",
+    "email": "doctor_1790788256415_0.5842799119571722@test.com",
+    "passwordHash": "$2b$10$wLlsev8VzQyU11uJveU3TuV4vQ9wOByOLKAR.O4X1l7MtkPaSVOa.",
+    "role": "DOCTOR",
+    "profile": {
+      "firstName": "Actor",
+      "lastName": "DOCTOR"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T17:10:56.518Z",
+      "lastLogin": "2026-09-30T17:10:56.622Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "75ccd06a-cb40-46f6-b9b4-044a3486b50a",
+    "email": "hospital_admin_1790788256630_0.18955557661505484@test.com",
+    "passwordHash": "$2b$10$soR.9oTx0uIV41iLxmH/PeZpCqcFhSnxA6k07sA8S70lmGD6pOWnm",
+    "role": "HOSPITAL_ADMIN",
+    "profile": {
+      "firstName": "Actor",
+      "lastName": "HOSPITAL_ADMIN"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T17:10:56.731Z",
+      "lastLogin": "2026-09-30T17:10:56.832Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "857838c1-2e0c-4c30-bf16-8263e3e68122",
+    "email": "hospital_staff_1790788256839_0.29417812002608756@test.com",
+    "passwordHash": "$2b$10$SIwfAeKanA6C.yg/9dbRy.w/yGqslbQdwOesHWshgRr8cL0KlTxQK",
+    "role": "HOSPITAL_STAFF",
+    "profile": {
+      "firstName": "Actor",
+      "lastName": "HOSPITAL_STAFF"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T17:10:56.933Z",
+      "lastLogin": "2026-09-30T17:10:57.037Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "869e8274-9cbe-4f4a-85d6-addc31f006a0",
+    "email": "doctor_1790788982686@test.com",
+    "passwordHash": "$2b$10$HFB/jKYWxNevFWlk5GY./.0rvDjDUot6UnbTXam3QFFC3b1aoqFfi",
+    "role": "DOCTOR",
+    "profile": {
+      "firstName": "Test",
+      "lastName": "DOCTOR"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T17:23:02.991Z",
+      "lastLogin": "2026-09-30T17:23:03.147Z",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "id": "469b5b02-b448-4719-a69b-ad7fce1bc983",
+    "email": "doctor_1790789002563@test.com",
+    "passwordHash": "$2b$10$snCZKHXEzIXAkydNN5da1.OGD2H8UXRsC9uj1XMz9CwfEjf9V6mAK",
+    "role": "DOCTOR",
+    "profile": {
+      "firstName": "Test",
+      "lastName": "DOCTOR"
+    },
+    "permissions": [],
+    "audit": {
+      "createdAt": "2026-09-30T17:23:22.730Z",
+      "lastLogin": "2026-09-30T17:23:22.863Z",
+      "status": "ACTIVE"
+    }
+  }
+]

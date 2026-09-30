@@ -1,0 +1,291 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id           String   @id @default(uuid())
+  email        String   @unique
+  passwordHash String
+  role         String // PATIENT, DOCTOR, HOSPITAL_ADMIN, HOSPITAL_STAFF
+  firstName    String
+  lastName     String
+  phone        String?
+  status       String   @default("ACTIVE") // ACTIVE, SUSPENDED, PENDING
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  lastLogin    DateTime?
+
+  patient      Patient?
+  doctor       Doctor?
+  staff        HospitalStaff?
+  auditLogs    AuditLog[]
+  sentMessages Message[] @relation("SentMessages")
+  receivedMessages Message[] @relation("ReceivedMessages")
+  notifications Notification[]
+  voiceMessagesSent VoiceMessage[] @relation("SentVoiceMessages")
+  voiceMessagesReceived VoiceMessage[] @relation("ReceivedVoiceMessages")
+}
+
+model Patient {
+  id             String   @id @default(uuid())
+  userId         String   @unique
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  dateOfBirth    DateTime?
+  gender         String?
+  medicalHistory String?
+  
+  appointments   Appointment[]
+  healthRecords  HealthRecord[]
+  documents      Document[]
+  admissions     Admission[]
+  invoices       Invoice[]
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model Doctor {
+  id             String   @id @default(uuid())
+  userId         String   @unique
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  departmentId   String?
+  department     Department? @relation(fields: [departmentId], references: [id])
+  specialization String?
+  licenseNumber  String?
+  
+  appointments   Appointment[]
+  healthRecords  HealthRecord[]
+  admissions     Admission[]
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model HospitalStaff {
+  id           String   @id @default(uuid())
+  userId       String   @unique
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  departmentId String?
+  department   Department? @relation(fields: [departmentId], references: [id])
+  position     String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Department {
+  id          String   @id @default(uuid())
+  name        String   @unique
+  description String?
+  
+  doctors     Doctor[]
+  staff       HospitalStaff[]
+  rooms       Room[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Appointment {
+  id              String   @id @default(uuid())
+  patientId       String
+  patient         Patient  @relation(fields: [patientId], references: [id], onDelete: Cascade)
+  doctorId        String
+  doctor          Doctor   @relation(fields: [doctorId], references: [id], onDelete: Cascade)
+  dateTime        DateTime
+  durationMinutes Int
+  status          String // REQUESTED, CONFIRMED, RESCHEDULED, CANCELLED, COMPLETED, NO_SHOW
+  reason          String
+  notes           String?
+  
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@index([patientId])
+  @@index([doctorId])
+}
+
+model HealthRecord {
+  id           String   @id @default(uuid())
+  patientId    String
+  patient      Patient  @relation(fields: [patientId], references: [id], onDelete: Cascade)
+  doctorId     String
+  doctor       Doctor   @relation(fields: [doctorId], references: [id])
+  diagnosis    String
+  treatment    String
+  prescription String?
+  date         DateTime @default(now())
+  
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([patientId])
+}
+
+model Document {
+  id         String   @id @default(uuid())
+  patientId  String
+  patient    Patient  @relation(fields: [patientId], references: [id], onDelete: Cascade)
+  uploaderId String // ID of user who uploaded
+  fileUrl    String
+  type       String
+  
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([patientId])
+}
+
+model Message {
+  id         String   @id @default(uuid())
+  senderId   String
+  sender     User     @relation("SentMessages", fields: [senderId], references: [id], onDelete: Cascade)
+  receiverId String
+  receiver   User     @relation("ReceivedMessages", fields: [receiverId], references: [id], onDelete: Cascade)
+  content    String
+  read       Boolean  @default(false)
+  
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([senderId])
+  @@index([receiverId])
+}
+
+model VoiceMessage {
+  id         String   @id @default(uuid())
+  senderId   String
+  sender     User     @relation("SentVoiceMessages", fields: [senderId], references: [id], onDelete: Cascade)
+  receiverId String
+  receiver   User     @relation("ReceivedVoiceMessages", fields: [receiverId], references: [id], onDelete: Cascade)
+  audioUrl   String
+  duration   Int
+  read       Boolean  @default(false)
+  
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  
+  @@index([senderId])
+  @@index([receiverId])
+}
+
+model Notification {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title     String
+  content   String
+  type      String
+  read      Boolean  @default(false)
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  @@index([userId])
+}
+
+model Admission {
+  id               String   @id @default(uuid())
+  patientId        String
+  patient          Patient  @relation(fields: [patientId], references: [id], onDelete: Cascade)
+  doctorId         String
+  doctor           Doctor   @relation(fields: [doctorId], references: [id])
+  roomId           String
+  room             Room     @relation(fields: [roomId], references: [id])
+  bedId            String
+  bed              Bed      @relation(fields: [bedId], references: [id])
+  admissionDate    DateTime
+  dischargeDate    DateTime?
+  dischargeSummary String?
+  status           String // ADMITTED, DISCHARGED, TRANSFERRED
+  
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+  
+  @@index([patientId])
+}
+
+model Room {
+  id           String   @id @default(uuid())
+  roomNumber   String   @unique
+  type         String // General, ICU, Maternity, Pediatrics, Isolation, Operation Theater
+  departmentId String?
+  department   Department? @relation(fields: [departmentId], references: [id])
+  capacity     Int
+  status       String // ACTIVE, INACTIVE
+  
+  beds         Bed[]
+  admissions   Admission[]
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Bed {
+  id        String   @id @default(uuid())
+  roomId    String
+  room      Room     @relation(fields: [roomId], references: [id], onDelete: Cascade)
+  bedNumber String
+  status    String // AVAILABLE, OCCUPIED, RESERVED, MAINTENANCE
+  
+  admissions Admission[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Invoice {
+  id             String   @id @default(uuid())
+  patientId      String
+  patient        Patient  @relation(fields: [patientId], references: [id], onDelete: Cascade)
+  admissionId    String?
+  date           DateTime
+  totalAmount    Float
+  status         String // DRAFT, PENDING, PAID, CANCELLED
+  paymentRef     String?
+  
+  items          InvoiceItem[]
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+  
+  @@index([patientId])
+}
+
+model InvoiceItem {
+  id          String   @id @default(uuid())
+  invoiceId   String
+  invoice     Invoice  @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
+  description String
+  quantity    Int
+  unitPrice   Float
+  total       Float
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model InventoryItem {
+  id                 String   @id @default(uuid())
+  name               String
+  category           String // Medicine, Equipment, Consumable, Other
+  quantity           Int
+  lowStockThreshold  Int
+  supplierInfo       String?
+  lastRestocked      DateTime?
+  
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+}
+
+model AuditLog {
+  id         String   @id @default(uuid())
+  userId     String
+  user       User     @relation(fields: [userId], references: [id])
+  action     String
+  entityType String
+  entityId   String
+  details    String?
+  timestamp  DateTime @default(now())
+  
+  @@index([userId])
+  @@index([entityType, entityId])
+}
